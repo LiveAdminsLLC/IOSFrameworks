@@ -13,6 +13,7 @@
 #import "WGVisitorUser.h"
 #import "MulticastDelegate.h"
 #import "RoomsManager.h"
+#import "SignalRBaseManager.h"
 #import "WGVisitorSitesManager.h"
 #import "WGVisitorWebService.h"
 #import "WGVisitorXMPPClient.h"

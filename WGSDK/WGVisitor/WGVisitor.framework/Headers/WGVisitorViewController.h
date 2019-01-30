@@ -8,12 +8,12 @@
 
 
 #import <UIKit/UIKit.h>
-
+#import "ChatDetailViewController.h"
 
 @import WGVisitorCore;
 
 
-@interface WGVisitorViewController : UIViewController
+@interface WGVisitorViewController : ChatDetailViewController
 
 
 

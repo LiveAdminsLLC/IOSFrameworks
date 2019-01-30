@@ -40,6 +40,9 @@
 //Room unread messages
 @property (nonatomic, assign) NSInteger unreadMessagesCount;
 
+@property (nonatomic, retain)NSMutableArray *roomUpdatesCallback;
+@property (nonatomic, assign)BOOL isRoomEnabled;
+
 -(void) addOperatorGreetingMessage;
 
 - (NSInteger) totalMessagesDelivered;
@@ -83,5 +86,10 @@
 
 - (void)removeRoomUpdateCallback:(RoomUpdates)callBack;
 
+-(void) removeRoomDelegates;
+
+- (void)sendRoomUpdatesWithStatus:(RoomStatus)status withObject:(id) obj;
+
+-(void) updateMessageStatus:(NSDictionary*) message;
 
 @end

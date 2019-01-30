@@ -21,6 +21,8 @@
 
 @property (nonatomic, copy) NSString * userId;
 
+@property (nonatomic, assign) Boolean * active;
+
 
 
 @end

@@ -50,4 +50,6 @@
 
 - (WGVisitorRoom *)getRoomById:(NSString *)roomId;
 
+-(void) isChatExist:(NSString*)chatId withBlock:(void (^)(NSError *error, id responseObject))success;
+
 @end

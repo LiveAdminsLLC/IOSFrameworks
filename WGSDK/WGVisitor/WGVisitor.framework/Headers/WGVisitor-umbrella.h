@@ -3,6 +3,7 @@
 #endif
 
 #import "ChatDetailViewController.h"
+#import "CRToastManager+toast.h"
 #import "NSString+JSMessagesView.h"
 #import "UIColor+JSMessagesView.h"
 #import "UIImage+JSMessagesView.h"

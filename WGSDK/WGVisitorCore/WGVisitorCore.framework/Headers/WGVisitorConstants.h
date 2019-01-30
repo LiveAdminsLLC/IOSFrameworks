@@ -86,6 +86,8 @@ typedef void(^RoomUpdates)(id room,RoomStatus status);
 
 #else//Live Server
 
+#define SignalrR_Connect_URL @"https://blue.thelivechatsoftware.com/signalrserver/signalr"
+
 #define WebServiceURL_ManagementServiceXMPP @"https://thechatsoftware.com/ManagementService/ManagementService.asmx"
 #define _WGVisitorServerName @"localhost"//used with login
 

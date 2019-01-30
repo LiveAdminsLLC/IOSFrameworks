@@ -34,6 +34,12 @@
 -(void) resignMessageInputView;
 
 //-(void) sessionClosed;
-@property (nonatomic, retain) WGVisitorRoom * currentRoom;
+@property (nonatomic, weak) WGVisitorRoom * currentRoom;
 
+-(void) startChat:(NSString*) message;
+-(void) sendMessage:(NSString*) text;
+
+-(void) closeRoomAction;
+
+- (void)hideReloadChatButton;
 @end

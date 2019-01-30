@@ -67,8 +67,8 @@
 @property (nonatomic ,assign ) int messageCounterForOperatorBadge;
 @property (nonatomic ,assign ) BOOL operatorScreenActive;
 @property (nonatomic ,assign ) BOOL isxmppStreamDisconnected;
-@property (nonatomic,retain) UIAlertView *loadingAlert;
-@property (nonatomic,retain)  UIActivityIndicatorView *loadingActivityIndicator;
+//@property (nonatomic,retain) UIAlertView *loadingAlert;
+//@property (nonatomic,retain)  UIActivityIndicatorView *loadingActivityIndicator;
 
 
 - (BOOL)isInternetAvaliable;
@@ -77,7 +77,7 @@
 - (NSManagedObjectContext *)managedObjectContext_capabilities;
 
 - (void) loginClientUser:(NSString*) username password:(NSString*)password licenseKey:(NSString*)licenseValue respondBlock:(void (^)(void))block;
-- (BOOL)connect;
+
 - (void)disconnect;
 
 - (void) addStreamDelegate:(id) delegate;
@@ -85,7 +85,6 @@
 - (void) performLoacalNotification:(BOOL)cancel;
 
 - (void) signout;
--(void) joinAllOperatorRooms;
 
 - (void) goOnline;
 
@@ -108,7 +107,7 @@
 
 - (BOOL)connectUser:(WGVisitorUser*) user;
 
--(void) inviteUser;
+//-(void) inviteUser;
 
 @property (nonatomic, retain) Reachability* reachability;
 

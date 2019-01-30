@@ -12,3 +12,5 @@
 
 #define WGVisitor_LOGIN_FAIL @"LoginFail"
 #define WGVisitor_LOGIN_SUCCESS_IPHONE @"LoginSuccessIphone"
+
+#define XMPP_CONNECTED @"ConnectNotification"
