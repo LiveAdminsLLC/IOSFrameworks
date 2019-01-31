@@ -9,7 +9,7 @@
 #import "WGVisitorConstants.h"
 
 
-@import SignalR_ObjC;
+
 
 //@import SignalRSwift;
 
@@ -28,7 +28,7 @@
 
 //@property (copy)RTCCallbacks rtcCallback;
 
-@property (strong, nonatomic, readwrite) SRHubProxy *hub;
+
 
 + (SignalRBaseManager *)sharedInstance;
 

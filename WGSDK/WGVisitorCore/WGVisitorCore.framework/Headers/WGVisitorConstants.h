@@ -10,6 +10,9 @@
 #ifndef JabberClient_Constants_h
 #define JabberClient_Constants_h
 
+
+
+
 #define DEBUG false
 
 #if DEBUG
