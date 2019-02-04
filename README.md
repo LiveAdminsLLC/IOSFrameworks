@@ -41,14 +41,21 @@ Now set preferred language as follows
 [visitorPanel setPreferredLanguage:@"ar"]; // "ar" for Arabic 
 [visitorPanel setPreferredLanguage:@"en"]; // "en" for English 
 
+ To set the visitor post login information.
+[WGVisitorViewController setVisitorName:@"Michael" phoneNumber:@"123456789" email:@"micahel@test.com"];
+
 Swift Code
 
 WGVisitorViewController.setPreferredLanguage("en");
 WGVisitorViewController.setDomainForEnglish("domain for English language")
 WGVisitorViewController.setDomainForArabic("domain for Arabic language")
 WGVisitorViewController.shouldShowChatHead(false)
- WGVisitorViewController.chatHeadColour(UIColor.darkGray) 
+WGVisitorViewController.chatHeadColour(UIColor.darkGray) 
  
+ To set the visitor post login information.
+
+WGVisitorViewController.setVisitorName("Michael", phoneNumber: "12345678", email: "michael@test.com")
+
  
  Customization for iOS 
  
