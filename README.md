@@ -23,6 +23,11 @@ if WGVisitorSDK not loading then can be used local pods as follow.
 
 pod 'WGVisitorSDK', :path => '../WGSDK/'
  
+ if your app is using  'AFNetworking', '~>3.0' then add following line to pod file.
+
+pod 'SignalR-ObjC', :path => '../../SignalR-ObjC/'
+
+
 Run Command:  Pod install 
  
 Step 2: 
