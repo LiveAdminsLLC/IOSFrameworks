@@ -76,7 +76,7 @@ let chatConfigurations =    [ "en":[
 "PrivacyLink": <Privacy policy link for english>,
 "DomainNameLink": <Domain name link for english agent>,
 "RTL": false ,
-"ApplicationName": "Eagle Hills"
+"ApplicationName": <application name in english>
 ],
 
 "ar":[
