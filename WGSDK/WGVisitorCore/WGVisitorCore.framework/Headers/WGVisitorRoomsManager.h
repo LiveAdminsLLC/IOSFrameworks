@@ -9,13 +9,13 @@
 #import <Foundation/Foundation.h>
 #import "WGVisitorRoom.h"
 
-@interface RoomsManager : NSObject
+@interface WGVisitorRoomsManager : NSObject
 
 {
 
 }
 
-+ (RoomsManager *)sharedInstance;
++ (WGVisitorRoomsManager *)sharedInstance;
 
 @property (nonatomic, retain)NSMutableDictionary *roomsDict;
 

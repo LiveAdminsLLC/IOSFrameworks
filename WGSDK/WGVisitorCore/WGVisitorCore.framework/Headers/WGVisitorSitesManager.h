@@ -16,8 +16,10 @@
 
 @property(nonatomic, strong) WGVisitorSite * wgWebsite;
 @property (nonatomic,assign)BOOL toShowBranding;
-@property(nonatomic,strong) NSString * websiteDomainNameArabic;
-@property(nonatomic,strong) NSString * websiteDomainNameEnglish;
+//@property(nonatomic,strong) NSString * websiteDomainNameArabic;
+
+@property(nonatomic,strong) NSString * websiteDomainName;
+
 @property(nonatomic,strong) NSString * preferredLanguage;
 
 @property (nonatomic, retain)NSMutableArray *allRooms;
@@ -51,5 +53,6 @@
 - (WGVisitorRoom *)getRoomById:(NSString *)roomId;
 
 -(void) isChatExist:(NSString*)chatId withBlock:(void (^)(NSError *error, id responseObject))success;
+-(void) rateChat:(NSDictionary*)parameters withBlock:(void (^)(NSError *error, id responseObject))success;
 
 @end

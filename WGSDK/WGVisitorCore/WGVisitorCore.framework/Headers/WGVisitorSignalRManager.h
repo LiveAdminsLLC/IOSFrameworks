@@ -6,31 +6,25 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "WGVisitorConstants.h"
 
+//#import "WGVisitorSignalRBaseManager.h"
 
+@import WGVisitorSignaling;
 
+#import "WGVisitorMessage.h"
 
-//@import SignalRSwift;
-
-//#import "SignalR.h"
-
-#define _kEvent  @"event"
-#define _kData  @"data"
-#define _kCallback  @"callback"
-
-@interface SignalRBaseManager : NSObject
+@interface WGVisitorSignalRManager : WGVisitorSignalRBaseManager
 {
     
 }
 
 //@property (copy)SignalRResponse messageResponse;
 
-//@property (copy)RTCCallbacks rtcCallback;
+@property (copy)RTCCallbacks rtcCallback;
 
 
 
-+ (SignalRBaseManager *)sharedInstance;
++ (WGVisitorSignalRManager *)sharedInstance;
 
 - (void)startConnectingSocket;
 
@@ -62,5 +56,7 @@
 -(void)sendGetVideoIdByChatIdEvent:(NSString *)params reponseCallback:(void (^)(NSError *error, id responseObject))responseCallback;
 
 -(void) GetChatMessageIdWithStatus:(NSString*)chatId reponseCallback:(void (^)(NSError *error, id responseObject))responseCallback;
+
+-(void) UpdateMessageStatus:(NSString*)chatId messageId:(NSString*) messageId messageStatus:(MessageStatus) messageStatus reponseCallback:(void (^)(NSError *error, id responseObject))responseCallback;
 
 @end

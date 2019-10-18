@@ -1,0 +1,6 @@
+framework module WGVisitorSignaling {
+  umbrella header "WGVisitorSignaling-umbrella.h"
+
+  export *
+  module * { export * }
+}

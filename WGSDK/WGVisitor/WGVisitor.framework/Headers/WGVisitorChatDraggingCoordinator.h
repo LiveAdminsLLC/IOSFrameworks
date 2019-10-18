@@ -7,6 +7,6 @@
 
 @import ChatHead;
 
-@interface WGChatDraggingCoordinator : CHDraggingCoordinator
+@interface WGVisitorChatDraggingCoordinator : CHDraggingCoordinator
 
 @end

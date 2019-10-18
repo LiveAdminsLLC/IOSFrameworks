@@ -9,8 +9,8 @@
 #define _kEditMode @"isEditMode"
 
 #define hideCollection @"hideCollectionView"
-#define left @"leftSwipeCollectionView"
-#define right @"rightSwipeCollectionView"
+#define leftSwipeCollectionView @"leftSwipeCollectionView"
+#define rightSwipeCollectionView @"rightSwipeCollectionView"
 #define reloadChatDetailView @"reloadChatDetailViewWithCurrentRoom"
 
 

@@ -63,12 +63,16 @@ typedef void(^ChatRoomUpdates)(id room,ChatRoomStatus status);
 
 
 + (ChatHeadManager *)sharedInstance;
++ (ChatHeadManager *)sharedVisitorInstance;
+
+//+ (ChatHeadManager *)sharedVisitorInstance;
 
 - (void)setupWithWindow:(UIWindow *)window chDraggingCoordinatorDelegate:(id<CHDraggingCoordinatorDelegate>)draggingCoordinatorDelegate;
 
 -(void)addDragViewWithCoordinator:(CHDraggingCoordinator *)draggingCoordinator dataDelegate:(id<CHDraggableViewDataDelegate>) dataDelegate chatViews:(NSMutableArray *)chatViews color:(UIColor *)color;
 -(void)deleteChatHead;
 -(void) removeChatHeadsResources;
+
 
 
 @end

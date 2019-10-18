@@ -8,7 +8,11 @@
         "Back"  : "Back",
         "Close" : "Close",
         "End Session" : "End Session",
+        "Start Chat" : "Start Chat",
         "Confirm" : "Confirm",
+
+        "Privacy Policy" : "Privacy Policy",
+        "Agent Offline" : "Agent unavailable",
         "Do you want to leave this conversation" : "Do you want to leave this conversation",
         "Internet appears to be offline" : "Internet appears to be offline",
         "Close button press" : "Close button press",
@@ -33,9 +37,22 @@
         "Website call issue" : "Website call issue",
         "Success":"Success",
         "Warning":"Warning",
+        
+        "terms subject":"Thank you for chatting with us.",
+        "terms details":"%@ may use the information in this chat to communicate with you about our products and services. We will also store and process your data in accordance with our",
+        "Agree":"Agree",
+        "Disagree":"Disagree",
+        
         "Application need to restart please start it again":"Application need to restart please start it again",
         "Cancel":"Cancel",
-        "Unable to send email":"Unable to send email"
+        "Unable to send email":"Unable to send email",
+        "Joining Chat":"Joining Chat",
+        "Connected to Chat":"Connected to Chat",
+        "Unable to send message":"Unable to send message",
+        "File Uploaded Successfully":"File Uploaded Successfully",
+        "Failed to upload file":"Failed to upload file",
+        "Connection Established":"Connection Established",
+        "Unable to Initiate Chat":"Unable to Initiate Chat"
     },
     "ar": {
         "Ok" : "حسنا",
@@ -46,6 +63,8 @@
         "Back"  : "الى الخلف",
         "Close" : "أغلق",
         "End Session" : "جلسة نهاية",
+        "Start Chat" : "ابدأ الدردشة",
+        "Agent Offline" : "الوكيل غير متوفر",
         "Confirm" : "أكد",
         "Do you want to leave this conversation" : "هل تريد أن تترك هذه المحادثة",
         "Internet appears to be offline" : "يبدو الإنترنت أن يكون متواجد حاليا",
@@ -71,8 +90,21 @@
         "Website call issue" : "دعوة موقع القضية",
         "Success":"نجاح",
         "Warning":"تحذير",
+        "Privacy Policy" : "لسياسة الخصوصية الخاصة بنا",
+        "terms subject":"نشكركم على التواصل معنا.",
+        "terms details":"قد تستخدم إيجل هيلز المعلومات الواردة في هذه المحادثة للتواصل معكم حول منتجاتنا وخدماتنا. كما سيتم تخزين وتحليل بياناتكم وفقاً ",
+        "Agree":"موافق",
+        "Disagree":"غير موافق",
+        
         "Application need to restart please start it again":"تطبيق تحتاج إلى إعادة تشغيل الرجاء تشغيله مرة أخرى",
         "Cancel" : "إلغاء",
-        "Unable to send email":"غير قادر على إرسال البريد الإلكتروني"
+        "Unable to send email":"غير قادر على إرسال البريد الإلكتروني",
+        "Joining Chat":"الانضمام إلى الدردشة",
+        "Connected to Chat":"متصل بالدردشة",
+        "Unable to send message":"غير قادر على إرسال الرسالة",
+        "File Uploaded Successfully":"تم رفع الملف بنجاح",
+        "Failed to upload file":"فشل تحميل الملف",
+        "Connection Established":"اتصال أنشئت",
+        "Unable to Initiate Chat":"غير قادر على بدء محادثة",
     }
 }

@@ -39,8 +39,62 @@ WGVisitorViewController * visitorPanel = [WGVisitorViewController new];
 
 Set the domains for which you have registered WG Live Chat services by passing domains string to following method. 
  
-[WGVisitorViewController setDomainForEnglish:@"domain for English language"];
-[WGVisitorViewController setDomainForArabic:@"domain for Arabic language"]; 
+
+NSDictionary* chatConfigurations =    @{ @"en":@{
+@"PrivacyLink": <Privacy policy link for english>,
+@"DomainNameLink": < Domain name link for english>,
+@"RTL": @(NO) ,
+@"ApplicationName": <Application name >
+},
+
+@"ar":@{
+
+@"PrivacyLink":  <Privacy policy link for arabic>,
+@"DomainNameLink": <Domain name link for arabic>,
+@"RTL": @(YES),
+@"ApplicationName" : <Application name  in arabic>
+}
+
+};
+
+[WGVisitorViewController setChatConfigurations:chatConfigurations];
+
+Now set preferred language as follows 
+[visitorPanel setPreferredLanguage:@"ar"]; // "ar" for Arabic 
+[visitorPanel setPreferredLanguage:@"en"]; // "en" for English 
+
+To set the visitor post login information.
+
+[WGVisitorViewController setVisitorName:@"Michael" phoneNumber:@"123456789" email:@"micahel@test.com"];
+
+Swift Code
+
+WGVisitorViewController.setPreferredLanguage("en");
+
+
+let chatConfigurations =    [ "en":[
+"PrivacyLink": <Privacy policy link for english>,
+"DomainNameLink": <Domain name link for english agent>,
+"RTL": false ,
+"ApplicationName": "Eagle Hills"
+],
+
+"ar":[
+"PrivacyLink": <Privacy policy link for arabic>,
+"DomainNameLink": <Domain name link for arabic agent>,
+"RTL": true, //Right to Left
+"ApplicationName" : <application name in arabic>
+]
+
+]
+WGVisitorViewController.setChatConfigurations( chatConfigurations);
+
+
+
+WGVisitorViewController.shouldShowChatHead(false)
+WGVisitorViewController.shouldShowTimeStamp(false)
+
+
 
 Now set preferred language as follows 
 [visitorPanel setPreferredLanguage:@"ar"]; // "ar" for Arabic 
@@ -49,13 +103,10 @@ Now set preferred language as follows
  To set the visitor post login information.
 [WGVisitorViewController setVisitorName:@"Michael" phoneNumber:@"123456789" email:@"micahel@test.com"];
 
-Swift Code
 
-WGVisitorViewController.setPreferredLanguage("en");
-WGVisitorViewController.setDomainForEnglish("domain for English language")
-WGVisitorViewController.setDomainForArabic("domain for Arabic language")
-WGVisitorViewController.shouldShowChatHead(false)
-WGVisitorViewController.chatHeadColour(UIColor.darkGray) 
+In order to show chat head pass boolean value ;
+WGVisitorViewController.shouldShowChatHead(true)
+
  
  To set the visitor post login information.
 
@@ -68,45 +119,102 @@ The layout and various resources for visitorPanel are provided with the library 
  
  
  
-Customization of text color and background color for chat participants. 
+ Customization of Chat UI 
  
-// This function changes color of text messages sent by the visitor / customer (default color: 
-#ffffff). 
+ Following are the parameter to apply custom theme. You can leave some of it if you want to use default theme
  
-@property (nonatomic, retain)UIColor * outGoingTextColor; 
+ Obj C:
  
-// This function will change Visitor’s message background color (default color: #40bcbc) 
+ NSDictionary* themeConfigurations = @{
  
-@property (nonatomic, retain)UIColor * outGoingBackgroundColor; 
+ @"ThemeColor": [UIColor colorWithRed:32/2555.0 green:42/2555.0 blue:69/2555.0 alpha:1],
  
-// This function changes Chat Operator’s text color (default color: #ffffff). 
+ @"ChatHeadColour": [UIColor colorWithRed:32/2555.0 green:42/2555.0 blue:69/2555.0 alpha:1],
  
-@property (nonatomic, retain)UIColor * inComingTextColor; 
+ @"NavigationLogo":
+ [UIImage imageNamed:<navigation logo image>],
  
-5     // This function will change Chat Operator’s message background color (default color: #4570c6) 
+ @"AgentMessage":@{
  
-@property (nonatomic, retain)UIColor * inComingBackgroundColor; 
+ @"backgroundColor":[UIColor colorWithRed:32/2555.0 green:42/2555.0 blue:69/2555.0 alpha:1],
+ @"textColor": [UIColor  whiteColor],
+ @"avatar" :
+ [UIImage imageNamed:<agent avatar image> )],
+ 
+ },
+ 
+ @"VisitorMessage":@{
+ 
+ "backgroundColor": UIColor.lightGray,
+ @"textColor": [UIColor whiteColor],
+ 
+ "avatar" : UIImage.init(imageLiteralResourceName: <visitor avatar image> ))
+ 
+ }
+ 
+ };
  
  
  
-Customization of Send Button 
+ [WGVisitorViewController setThemeConfigurations:themeConfigurations];
  
-// This function will change send button’s text color. 
+ Swift:
  
-@property (nonatomic, retain)UIColor * sendButtonTextColor; 
  
-// This function will change send button’s background color. 
  
-@property (nonatomic, retain)UIColor * sendButtonBackGroundColor; 
+ let themeConfigurations = [
  
-// This function will allow you to add a background image within the send button. 
+ "ThemeColor": UIColor.init( red:32/2555.0, green:42/2555.0 ,blue:69/2555.0 ,alpha:1),
  
-@property (nonatomic, retain)UIImage * sendButtonBackGroundImage; 
-
-
-Customization of chathead
-
-
-WGVisitorViewController.shouldShowChatHead(false)
-
-WGVisitorViewController.chatHeadColour( UIColor.darkGray)
+ "ChatHeadColour": UIColor.init( red:32/2555.0, green:42/2555.0 ,blue:69/2555.0 ,alpha:1),
+ 
+ "NavigationLogo": UIImage.init(imageLiteralResourceName: "logo"),
+ 
+ "AgentMessage":[
+ 
+ "backgroundColor": UIColor.init( red:32/2555.0, green:42/2555.0 ,blue:69/2555.0 ,alpha:1),
+ "textColor": UIColor.white,
+ "avatar" : UIImage.init(imageLiteralResourceName: <agent avatar image>)
+ ],
+ 
+ "VisitorMessage":[
+ 
+ "backgroundColor": UIColor.lightGray,
+ "textColor": UIColor.darkText,     
+ "avatar" : UIImage.init(imageLiteralResourceName: <visitor avatar image> )
+ 
+ ]
+ 
+ ] as [String : Any]
+ 
+ 
+ WGVisitorViewController.setThemeConfigurations( themeConfigurations);
+ 
+ 
+ Customization of chathead
+ 
+ 
+ WGVisitorViewController.shouldShowChatHead(false)
+ 
+ 
+ 
+ Change Navigation theme
+ 
+ 
+ Here is the code to change navigation if required as per your need. This can be added inside your view controller class.
+ 
+ 
+ if #available(iOS 11.0, *) {
+ self.navigationController?.navigationBar.largeTitleTextAttributes = [.foregroundColor: UIColor.white]
+ 
+ self.navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+ } else {
+ // Fallback on earlier versions
+ }
+ 
+ self.navigationController?.navigationBar.tintColor = UIColor.white
+ 
+ self.navigationController?.navigationBar.barTintColor = WGVisitorSharedData.getSharedInstance().themeColor()
+ 
+ 
+ 

@@ -11,9 +11,9 @@
 
 
 
-@interface SharedData : NSObject
+@interface WGVisitorSharedData : NSObject
 
-+ (SharedData *)getSharedInstance;
++ (WGVisitorSharedData *)getSharedInstance;
 
 @property (nonatomic, assign)BOOL isLoggedIn;
 
@@ -27,26 +27,39 @@
 - (void)hideActivityIndicator;
 
 
-@property (nonatomic, retain)UIColor * outGoingTextColor;
-@property (nonatomic, retain)UIColor * outGoingBackgroundColor;
-@property (nonatomic, retain)UIColor * inComingTextColor;
-@property (nonatomic, retain)UIColor * inComingBackgroundColor;
 
-@property (nonatomic, retain)UIColor * sendButtonTextColor;
-@property (nonatomic, retain)UIColor * sendButtonBackGroundColor;
-@property (nonatomic, retain)UIImage * sendButtonBackGroundImage;
 
 @property (nonatomic, retain)NSString *selectedLanguage;
 
 @property (nonatomic, retain)NSBundle *resourcesBundle;
 
-@property(nonatomic,strong) NSString * websiteDomainNameArabic;
-@property(nonatomic,strong) NSString * websiteDomainNameEnglish;
-
 
 @property(nonatomic,assign) Boolean shouldShowChatHead;
-@property(nonatomic,strong) UIColor * chatHeadColour;
 
+@property(nonatomic,assign) Boolean shouldShowTimeStamp;
+
+
+@property(nonatomic,strong) NSDictionary * chatConfigurations;
+
+@property(nonatomic,strong) NSDictionary * themeConfigurations;
+
+-(NSString*) websiteDomainName;
+-(NSString*) privacyPolicyLink;
+-(NSString*) applicationName;
+-(Boolean) isRTL;
+
+-(UIColor *) agentTextColor;
+-(UIColor *) agentBackgroundColor;
+
+-(UIColor *) visitorTextColor;
+-(UIColor *) visitorBackgroundColor;
+
+-(UIColor *) chatHeadColour;
+-(UIColor *) themeColor;
+
+-(UIImage *) visitorAvatar;
+-(UIImage *) agentAvatar;
+-(UIImage *) navigationLogoImage;
 
 -(NSMutableArray *)allRooms;
 -(void) showChatHeadIfNeeded;

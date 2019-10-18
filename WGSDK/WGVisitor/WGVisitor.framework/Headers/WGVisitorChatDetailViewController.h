@@ -8,17 +8,17 @@
 
 #import <UIKit/UIKit.h>
 #import "JSMessagesViewController.h"
-#import "SharedData.h"
+#import "WGVisitorSharedData.h"
 
 @import WGVisitorCore;
 
 @class WGVisitorRoom;
-@interface ChatDetailViewController : JSMessagesViewController <JSMessagesViewDataSource, JSMessagesViewDelegate>
+@interface WGVisitorChatDetailViewController : JSMessagesViewController <JSMessagesViewDataSource, JSMessagesViewDelegate>
 
 {
 
     
-    SharedData *sharedData;
+    WGVisitorSharedData *sharedData;
 
 }
 

@@ -28,6 +28,11 @@ typedef NS_ENUM(NSUInteger, JSMessagesViewTimestampPolicy) {
      *  Displays a timestamp above every message bubble.
      */
     JSMessagesViewTimestampPolicyAll,
+    
+    /**
+     * Dont  Displays a timestamp
+     */
+    JSMessagesViewTimestampPolicyNone,
     /**
      *  Displays a timestamp above every second message bubble.
      */

@@ -10,6 +10,6 @@
 
 @interface UIColor (WGVisitor)
 
-+ (UIColor*) wgBrandColor;
-+ (UIColor*) navbarColor;
++ (UIColor*) wgVisitorBrandColor;
+
 @end

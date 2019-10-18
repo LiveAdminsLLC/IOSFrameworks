@@ -16,7 +16,8 @@ typedef NS_ENUM(NSInteger, WGVisitorStatus){
     WEBSITE_NOT_FOUND,
     EMAIL_SENT,
     EMAIL_NOT_SENT,
-    INTERNET_UNAVAILABLE_TO_INITIATE_CHAT
+    INTERNET_UNAVAILABLE_TO_INITIATE_CHAT,
+    REJECT_TERMS
     
 };
 
@@ -31,6 +32,9 @@ typedef NS_ENUM(NSInteger, WGVisitorBarButtonType){
 typedef NS_ENUM(NSInteger, WGVisitorStatusLocal){
     
     WGVisitorStatusAutomaticClosed=AUTOMATIC_CLOSED,
+    
+    WGVisitorStatusRejectTerms=REJECT_TERMS,
+    
     WGVisitorStatusCloseButtonPressed=CLOSE_BUTTON_PRESSED,
     WGVisitorStatusNoOperatorFound=NO_OPERATOR_FOUND,
     WGVisitorStatusNetworkError=NETWORK_ERROR,

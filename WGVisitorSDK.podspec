@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "WGVisitorSDK"
-  s.version      = "1.0.4"
+  s.version      = "1.0.5"
   s.summary      = "Liveadmins VisitorPanel library for iOS"
   s.homepage     = "https://liveadmins.com"
   s.author       = { "LPMObile" => "zaigham.maqsood@liveadmins.com" }

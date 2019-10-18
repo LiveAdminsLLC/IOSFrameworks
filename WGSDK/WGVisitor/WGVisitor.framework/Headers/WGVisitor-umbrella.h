@@ -2,7 +2,6 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "ChatDetailViewController.h"
 #import "CRToastManager+toast.h"
 #import "NSString+JSMessagesView.h"
 #import "UIColor+JSMessagesView.h"
@@ -17,13 +16,14 @@
 #import "JSMessagesViewController.h"
 #import "JSMessageTextView.h"
 #import "JSQSystemSoundPlayer.h"
-#import "SharedData.h"
-#import "WGChatDraggingCoordinator.h"
-#import "WGContactUsViewController.h"
 #import "WGTextFieldCell.h"
 #import "WGTextViewCell.h"
-#import "WGVisitor.h"
+#import "WGVisitorChatDetailViewController.h"
+#import "WGVisitorChatDraggingCoordinator.h"
+#import "WGVisitorContactUsViewController.h"
+#import "WGVisitorSharedData.h"
 #import "WGVisitorSoundPlayer.h"
+#import "WGVisitorTermsViewController.h"
 #import "WGVisitorViewController.h"
 
 FOUNDATION_EXPORT double WGVisitorVersionNumber;

@@ -25,6 +25,7 @@
 -(BOOL) ignoreMessage;
 - (NSString*) managerId;
 
+- (NSString*) messageId;
 /*
  Group chat is recieved when room has some issue for instace 
  <message xmlns="jabber:client" type="groupchat" from="room3629@conference.maavratech.com" to="382@maavratech.com/c6059920"><body>This room is locked from entry until configuration is confirmed.</body></message>

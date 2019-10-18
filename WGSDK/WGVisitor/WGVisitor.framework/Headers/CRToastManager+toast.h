@@ -6,7 +6,7 @@
 //  Copyright © 2016 Maavratech. All rights reserved.
 //
 
-#import <CRToast/CRToast.h>
+@import CRToast;
 
 @interface CRToastManager (toast)
 

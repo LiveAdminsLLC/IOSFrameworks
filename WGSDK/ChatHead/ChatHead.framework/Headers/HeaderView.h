@@ -9,11 +9,14 @@
 #import <UIKit/UIKit.h>
 #import "CHDraggableView.h"
 #import "CHDraggingCoordinator.h"
+#import "ChatHeadManager.h"
 
 @interface HeaderView : UIView
 @property (nonatomic, weak)IBOutlet UICollectionView *collectionView;
 @property (nonatomic, retain)NSArray *localDataSource;
 @property (nonatomic, retain)UIColor *headerViewColor;
+
+@property (nonatomic, strong) ChatHeadManager* chatheadManager;
 
 @property (copy)void(^roomSelected)(id room);
 
@@ -22,5 +25,7 @@
 -(void) reloadData;
 
 - (IBAction)closeButton:(id)sender;
+
+- (id)initWithManager:(ChatHeadManager*) chatheadManager;
 
 @end

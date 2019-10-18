@@ -9,12 +9,43 @@
 #import <Foundation/Foundation.h>
 #import "WGVisitorConstants.h"
 
+
+#pragma -mark Notifications
+
+#define _kVisitorNotificationType @"_kVisitorNotificationType"
+
+#define _kChatCategory @"_kChatCategory"
+
+#define _kChatReply @"_kChatReply"
+
+#define _kChatView @"_kChatView"
+
+
+#define _kCallCategory @"_kCallCategory"
+
+#define _kCallAccept @"_kCallAccept"
+
+#define _kCallDecline @"_kCallDecline"
+
+#define _kCallView @"_kCallView"
+
+typedef enum : NSUInteger {
+    VisitorLocalNotificationType_None=399,
+    
+    VisitorLocalNotificationType_NewMessage,
+    VisitorLocalNotificationType_Calling,
+    VisitorLocalNotificationType_Wait_Warning,
+    
+} VisitorLocalNotificationType;
+
+
 @class XMPPRoom;
 @class WGVisitorSite;
 @class WGVisitorUser;
 @class WGVisitorMessage;
 
 @interface WGVisitorRoom : NSObject
+
 
 @property (nonatomic, retain) NSString *roomId;
 @property (nonatomic, assign) XMPPRoom * xmppRoom;
@@ -86,10 +117,14 @@
 
 - (void)removeRoomUpdateCallback:(RoomUpdates)callBack;
 
+- (void)removeRoomUpdateCallbacks;
+
 -(void) removeRoomDelegates;
 
 - (void)sendRoomUpdatesWithStatus:(RoomStatus)status withObject:(id) obj;
 
 -(void) updateMessageStatus:(NSDictionary*) message;
+
+-(void) readMessages;
 
 @end
