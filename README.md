@@ -25,7 +25,7 @@ pod 'WGVisitorSDK', :path => '../WGSDK/'
  
  if your app is using  'AFNetworking', '~>3.0' then add following line to pod file.
 
-pod 'SignalR-ObjC', :path => '../../SignalR-ObjC/'
+pod 'SignalR-ObjC', :path => '../WGSDK/SignalR-ObjC/'
 
 
 Run Command:  Pod install 
