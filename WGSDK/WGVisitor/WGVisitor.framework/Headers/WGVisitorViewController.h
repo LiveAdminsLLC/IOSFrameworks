@@ -26,7 +26,7 @@
 
 
 
-+(void)setPreferredLanguage:(NSString*)languageCode;// "ar" for arabic
++(void)setPreferredLanguage:(NSString*)languageCode;
 
 
 +(void)shouldShowChatHead:(Boolean)flag;
