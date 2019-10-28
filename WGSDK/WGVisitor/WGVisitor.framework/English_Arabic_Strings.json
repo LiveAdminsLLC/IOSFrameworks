@@ -52,7 +52,10 @@
         "File Uploaded Successfully":"File Uploaded Successfully",
         "Failed to upload file":"Failed to upload file",
         "Connection Established":"Connection Established",
-        "Unable to Initiate Chat":"Unable to Initiate Chat"
+        "Unable to Initiate Chat":"Unable to Initiate Chat",
+        "Chat Center Representative": "Chat Center Representative",
+        "Placeholder text": "Type here.."
+        
     },
     "ar": {
         "Ok" : "حسنا",
@@ -106,5 +109,7 @@
         "Failed to upload file":"فشل تحميل الملف",
         "Connection Established":"اتصال أنشئت",
         "Unable to Initiate Chat":"غير قادر على بدء محادثة",
+        "Chat Center Representative": "مركز الدردشة ممثل",
+        "Placeholder text" : "أكتب هنا ..."
     }
 }

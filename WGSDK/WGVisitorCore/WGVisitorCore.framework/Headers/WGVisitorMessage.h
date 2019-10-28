@@ -42,4 +42,6 @@ typedef enum MessageStatus: NSInteger{
 //- (NSBubbleType) messageType;
 - (BOOL) isMessageByCurrentUser;
 
+-(NSString*) getFormattedTime;
+
 @end

@@ -61,6 +61,11 @@
 -(UIImage *) agentAvatar;
 -(UIImage *) navigationLogoImage;
 
+
+-(UIColor *) agentLinkTextColor;
+
+-(UIColor *) visitorLinkTextColor;
+
 -(NSMutableArray *)allRooms;
 -(void) showChatHeadIfNeeded;
 

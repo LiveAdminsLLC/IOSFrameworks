@@ -34,4 +34,6 @@
                   withFormat:(NSString *)format;
 + (NSDate *)utctoLocalFromString:(NSString *)string withFormat:(NSString *)format;
 + (NSDate *)dateWithLocalTimeZone:(NSString *)string withFormat:(NSString *)format;
++ (NSString *)localToUTC:(NSDate *)date withFormat:(NSString *)format;
+
 @end

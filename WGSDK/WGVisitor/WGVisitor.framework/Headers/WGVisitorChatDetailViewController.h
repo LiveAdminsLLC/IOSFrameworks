@@ -7,13 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "JSMessagesViewController.h"
 #import "WGVisitorSharedData.h"
+#import "WGMessageViewController.h"
 
 @import WGVisitorCore;
 
 @class WGVisitorRoom;
-@interface WGVisitorChatDetailViewController : JSMessagesViewController <JSMessagesViewDataSource, JSMessagesViewDelegate>
+@interface WGVisitorChatDetailViewController : WGMessageViewController
 
 {
 
@@ -21,6 +21,11 @@
     WGVisitorSharedData *sharedData;
 
 }
+
+
+//@property (nonatomic, retain)WGMessageViewController *messageViewController;
+
+
 
 @property (nonatomic, assign)NSInteger navHeight;
 @property (nonatomic, assign)BOOL viaChatHead;

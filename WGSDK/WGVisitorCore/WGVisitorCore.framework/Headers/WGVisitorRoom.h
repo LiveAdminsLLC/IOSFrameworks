@@ -66,6 +66,8 @@ typedef enum : NSUInteger {
 
 @property (nonatomic, retain) NSString *greetingMessage;
 
+@property (nonatomic, retain) NSString *tmpRoomMessage;
+
 @property (nonatomic, retain) NSString *httpMessageId;
 
 //Room unread messages

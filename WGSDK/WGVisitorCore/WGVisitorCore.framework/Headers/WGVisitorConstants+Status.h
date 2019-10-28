@@ -17,7 +17,8 @@ typedef NS_ENUM(NSInteger, WGVisitorStatus){
     EMAIL_SENT,
     EMAIL_NOT_SENT,
     INTERNET_UNAVAILABLE_TO_INITIATE_CHAT,
-    REJECT_TERMS
+    REJECT_TERMS,
+    ACCEPT_TERMS
     
 };
 
@@ -34,7 +35,7 @@ typedef NS_ENUM(NSInteger, WGVisitorStatusLocal){
     WGVisitorStatusAutomaticClosed=AUTOMATIC_CLOSED,
     
     WGVisitorStatusRejectTerms=REJECT_TERMS,
-    
+    WGVisitorStatusAcceptTerms = ACCEPT_TERMS,
     WGVisitorStatusCloseButtonPressed=CLOSE_BUTTON_PRESSED,
     WGVisitorStatusNoOperatorFound=NO_OPERATOR_FOUND,
     WGVisitorStatusNetworkError=NETWORK_ERROR,
