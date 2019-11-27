@@ -38,8 +38,11 @@
         "Success":"Success",
         "Warning":"Warning",
         
+        "Live Chat":"Live Chat",
+        
         "terms subject":"Thank you for chatting with us.",
-        "terms details":"%@ may use the information in this chat to communicate with you about our products and services. We will also store and process your data in accordance with our",
+        "terms header":"We will also store and process your data in accordance with our",
+        "terms details":"%@ may use the information in this chat to communicate with you about our products and services.",
         "Agree":"Agree",
         "Disagree":"Disagree",
         
@@ -68,6 +71,7 @@
         "End Session" : "جلسة نهاية",
         "Start Chat" : "ابدأ الدردشة",
         "Agent Offline" : "الوكيل غير متوفر",
+        "Live Chat":"دردشة مباشرة",
         "Confirm" : "أكد",
         "Do you want to leave this conversation" : "هل تريد أن تترك هذه المحادثة",
         "Internet appears to be offline" : "يبدو الإنترنت أن يكون متواجد حاليا",
@@ -95,7 +99,9 @@
         "Warning":"تحذير",
         "Privacy Policy" : "لسياسة الخصوصية الخاصة بنا",
         "terms subject":"نشكركم على التواصل معنا.",
-        "terms details":"قد تستخدم إيجل هيلز المعلومات الواردة في هذه المحادثة للتواصل معكم حول منتجاتنا وخدماتنا. كما سيتم تخزين وتحليل بياناتكم وفقاً ",
+        "terms header":"سنقوم أيضًا بتخزين ومعالجة بياناتك وفقًا لـ",
+        "terms details":"قد تستخدم المعلومات الموجودة في هذه الدردشة للتواصل معك حول منتجاتنا وخدماتنا.%@",
+        
         "Agree":"موافق",
         "Disagree":"غير موافق",
         

@@ -3,9 +3,9 @@
 #endif
 
 #import "CRToastManager+toast.h"
-#import "WGMessageViewCell.h"
+#import "WGVisitorMessageViewCell.h"
 #import "WGMessageControllerConstants.h"
-#import "WGMessageViewController.h"
+#import "WGVisitorMessageViewController.h"
 #import "WGVisitorChatDetailViewController.h"
 #import "WGVisitorChatDraggingCoordinator.h"
 #import "WGVisitorContactViewController.h"

@@ -16,7 +16,7 @@ extern const NSString *_kMessageCellUserName;
 extern const NSString *_kMessageCellTime;
 
 
-@protocol WGMessageViewProtocol <NSObject>
+@protocol WGVisitorMessageViewProtocol <NSObject>
 
 @required
 
@@ -36,16 +36,16 @@ extern const NSString *_kMessageCellTime;
 
 @end
 
-@interface WGMessageViewController : UIViewController<UITextViewDelegate, UISearchBarDelegate,UITableViewDelegate, UITableViewDataSource,UIViewControllerRestoration>
+@interface WGVisitorMessageViewController : UIViewController<UITextViewDelegate, UISearchBarDelegate,UITableViewDelegate, UITableViewDataSource,UIViewControllerRestoration>
 
 {
 
 }
 
 //+ (WGMessageViewController *)getMessageViewController;
-+ (WGMessageViewController *)getMessageViewController:(BOOL) isInGrid;
++ (WGVisitorMessageViewController *)getMessageViewController:(BOOL) isInGrid;
 
-@property (nonatomic, weak)id<WGMessageViewProtocol>delegate;
+@property (nonatomic, weak)id<WGVisitorMessageViewProtocol>delegate;
 
 @property (nonatomic,weak)IBOutlet UIStackView *verticalStackView;
 @property (nonatomic,weak)IBOutlet UIStackView *horizontalStackView;
@@ -58,6 +58,9 @@ extern const NSString *_kMessageCellTime;
 @property (nonatomic, weak)IBOutlet UILabel *lbMessageType;
 @property (nonatomic, retain)IBOutlet NSString *selectedString;
 @property (nonatomic,weak)IBOutlet UISearchBar *searchBar;
+
+@property (nonatomic, weak)IBOutlet NSLayoutConstraint *statusbarHeightConstraint;
+
 @property (nonatomic, weak)IBOutlet NSLayoutConstraint *searchHeightConstraint;
 @property (nonatomic, weak)IBOutlet NSLayoutConstraint *lockUnockConstraint;
 @property (nonatomic, weak) WGVisitorRoom * currentRoom;
@@ -77,6 +80,8 @@ extern const NSString *_kMessageCellTime;
 @property (nonatomic, weak)IBOutlet UILabel *headerTitleLabel;
 @property (nonatomic, weak)IBOutlet UILabel *headerDetailLabel;
 @property (nonatomic, weak)IBOutlet UIButton *closeChatButton;
+
+@property (nonatomic, weak)IBOutlet UIView * headerView;
 
 @property (nonatomic, weak)IBOutlet UIButton *backButton;
 
@@ -107,4 +112,5 @@ extern const NSString *_kMessageCellTime;
 
 -(void)updateUnreadMessagesCount:(int) count;
 
+-(void) setupChatUI;
 @end

@@ -10,7 +10,7 @@
 
 #import <WGVisitorCore/WGVisitorMessage.h>
 
-@interface WGMessageViewCell : UITableViewCell
+@interface WGVisitorMessageViewCell : UITableViewCell
 
 {
 

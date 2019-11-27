@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (Plus)
+@interface NSDate (WGVisitor)
 
 
 #pragma mark - class methods

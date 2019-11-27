@@ -2,7 +2,7 @@
 #import <UIKit/UIKit.h>
 #endif
 
-#import "NSDate+.h"
+#import "NSDate+WGVisitor.h"
 #import "NSString+WGVisitorWebService.h"
 #import "UIColor+WGVisitor.h"
 #import "XMPPMessage+WGVisitor.h"

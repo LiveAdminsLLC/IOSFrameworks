@@ -8,12 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "WGVisitorSharedData.h"
-#import "WGMessageViewController.h"
+#import "WGVisitorMessageViewController.h"
 
 @import WGVisitorCore;
 
 @class WGVisitorRoom;
-@interface WGVisitorChatDetailViewController : WGMessageViewController
+@interface WGVisitorChatDetailViewController : WGVisitorMessageViewController
 
 {
 
