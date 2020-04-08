@@ -3,6 +3,9 @@
 #endif
 
 #import "CRToastManager+toast.h"
+#import "UIWGCustomButton.h"
+#import "UIWGCustomLabel.h"
+#import "UIWGCustomTextView.h"
 #import "WGVisitorMessageViewCell.h"
 #import "WGMessageControllerConstants.h"
 #import "WGVisitorMessageViewController.h"

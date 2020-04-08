@@ -69,4 +69,16 @@
 -(NSMutableArray *)allRooms;
 -(void) showChatHeadIfNeeded;
 
+-(NSString*) customFont;
+
+
+-(UIColor *) termsTextColor;
+
+-(UIColor *) termsBackgroundColor;
+
+
+
+-(UIColor *) buttonBackgroundColor;
+-(UIColor *) buttonTextColor;
+
 @end
