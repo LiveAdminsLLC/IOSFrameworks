@@ -55,4 +55,6 @@
 -(void) isChatExist:(NSString*)chatId withBlock:(void (^)(NSError *error, id responseObject))success;
 -(void) rateChat:(NSDictionary*)parameters withBlock:(void (^)(NSError *error, id responseObject))success;
 
+-(void) clearCache;
+
 @end
