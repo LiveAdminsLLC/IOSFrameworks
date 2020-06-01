@@ -1,0 +1,847 @@
+BCSymbolMap Version: 2.0
+-[MulticastDelegate init]
+-[MulticastDelegate addDelegate:]
+-[MulticastDelegate removeDelegate:]
+-[MulticastDelegate removeAllDelegates]
+-[MulticastDelegate delegates]
+-[MulticastDelegate respondsToSelector:]
+-[MulticastDelegate methodSignatureForSelector:]
+-[MulticastDelegate forwardInvocation:]
+-[MulticastDelegate .cxx_destruct]
+_OBJC_IVAR_$_MulticastDelegate._delegates
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/MulticastDelegate.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorDemo/Swift/Pods
+WGVisitorPods/WGVisitorCore/WGVisitorCore/MulticastDelegate.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod
++[NSDate(WGVisitor) now]
++[NSDate(WGVisitor) defaultFormat]
++[NSDate(WGVisitor) setDefaultFormat:]
++[NSDate(WGVisitor) dateFromString:]
++[NSDate(WGVisitor) dateFromString:withFormat:]
++[NSDate(WGVisitor) utctoLocalFromString:withFormat:]
++[NSDate(WGVisitor) dateWithLocalTimeZone:withFormat:]
++[NSDate(WGVisitor) stringFromDate:]
++[NSDate(WGVisitor) stringFromDate:withFormat:]
++[NSDate(WGVisitor) localToUTC:withFormat:]
+_defaultFormat
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/NSDate+WGVisitor.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/NSDate+WGVisitor.m
++[NSString(WGVisitorWebService) formatRequest:WithParameters:]
++[NSString(WGVisitorWebService) formatRequestV2:WithParameters:]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/NSString+WGVisitorWebService.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/NSString+WGVisitorWebService.m
++[UIColor(WGVisitor) wgVisitorBrandColor]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/UIColor+WGVisitor.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/UIColor+WGVisitor.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorDemo/Swift/Pods/Target Support Files/WGVisitorCore/WGVisitorCore-dummy.m
+-[WGVisitorMessage isMessageByCurrentUser]
+-[WGVisitorMessage extractLinks]
+-[WGVisitorMessage getFormattedTime]
+-[WGVisitorMessage dealloc]
+-[WGVisitorMessage messageId]
+-[WGVisitorMessage setMessageId:]
+-[WGVisitorMessage message]
+-[WGVisitorMessage setMessage:]
+-[WGVisitorMessage managerId]
+-[WGVisitorMessage setManagerId:]
+-[WGVisitorMessage sender]
+-[WGVisitorMessage setSender:]
+-[WGVisitorMessage timeStamp]
+-[WGVisitorMessage setTimeStamp:]
+-[WGVisitorMessage messageType]
+-[WGVisitorMessage setMessageType:]
+-[WGVisitorMessage messageStatus]
+-[WGVisitorMessage setMessageStatus:]
+-[WGVisitorMessage isGreetingMessage]
+-[WGVisitorMessage setIsGreetingMessage:]
+-[WGVisitorMessage .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorMessage._isGreetingMessage
+_OBJC_IVAR_$_WGVisitorMessage._messageId
+_OBJC_IVAR_$_WGVisitorMessage._message
+_OBJC_IVAR_$_WGVisitorMessage._managerId
+_OBJC_IVAR_$_WGVisitorMessage._sender
+_OBJC_IVAR_$_WGVisitorMessage._timeStamp
+_OBJC_IVAR_$_WGVisitorMessage._messageType
+_OBJC_IVAR_$_WGVisitorMessage._messageStatus
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorMessage.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorMessage.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorMessage.h
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[WGVisitorRoom init]
+-[WGVisitorRoom roomOcuupants]
+-[WGVisitorRoom messages]
+-[WGVisitorRoom unreadMessagesCount]
+-[WGVisitorRoom addRoomDelegate:]
+-[WGVisitorRoom removeRoomDelegate:]
+-[WGVisitorRoom sendHTTPMessage:]
+___33-[WGVisitorRoom sendHTTPMessage:]_block_invoke
+-[WGVisitorRoom recieveHTTPMessage]
+___35-[WGVisitorRoom recieveHTTPMessage]_block_invoke
+-[WGVisitorRoom joinHTTPRoom]
+-[WGVisitorRoom leaveHTTPRoom]
+___30-[WGVisitorRoom leaveHTTPRoom]_block_invoke
+-[WGVisitorRoom sendMessage:]
+-[WGVisitorRoom setRoomId:]
+-[WGVisitorRoom destroyRoom]
+-[WGVisitorRoom setTotalMessagesDelivered]
+-[WGVisitorRoom totalMessagesDelivered]
+-[WGVisitorRoom connect]
+-[WGVisitorRoom ignoreMessage:]
+-[WGVisitorRoom isConnected]
+-[WGVisitorRoom closeRoom]
+-[WGVisitorRoom closeStream]
+-[WGVisitorRoom removeRoomDelegates]
+-[WGVisitorRoom closeRoomSession]
+-[WGVisitorRoom handleNotificationLogic:]
+-[WGVisitorRoom removeRoomAfterIdel]
+-[WGVisitorRoom xmppRoom:occupantDidJoin:withPresence:]
+-[WGVisitorRoom xmppRoom:occupantDidLeave:withPresence:]
+-[WGVisitorRoom xmppRoom:occupantDidUpdate:withPresence:]
+-[WGVisitorRoom xmppRoom:didReceiveMessage:fromOccupant:]
+___57-[WGVisitorRoom xmppRoom:didReceiveMessage:fromOccupant:]_block_invoke
+-[WGVisitorRoom getMessageType:managerId:]
+-[WGVisitorRoom inviteUser:withMessage:]
+-[WGVisitorRoom roomDestroyUpdate]
+-[WGVisitorRoom clearAllMessages]
+-[WGVisitorRoom getReasonPacket]
+-[WGVisitorRoom getVisitor]
+-[WGVisitorRoom getOperator]
+-[WGVisitorRoom isHttpRoom]
+-[WGVisitorRoom httpMessageId]
+-[WGVisitorRoom sendActiveChatState]
+-[WGVisitorRoom sendComposingChatState]
+-[WGVisitorRoom sendPausedChatState]
+-[WGVisitorRoom sendInactiveChatState]
+-[WGVisitorRoom sendGoneChatState]
+-[WGVisitorRoom xmppRoomDidCreate:]
+-[WGVisitorRoom xmppRoomDidJoin:]
+-[WGVisitorRoom xmppRoomDidLeave:]
+-[WGVisitorRoom xmppRoomDidDestroy:]
+-[WGVisitorRoom xmppRoom:didFailToDestroy:]
+-[WGVisitorRoom sendRoomUpdatesWithStatus:withObject:]
+-[WGVisitorRoom addRoomUpdatesCallBack:]
+-[WGVisitorRoom removeRoomUpdateCallback:]
+-[WGVisitorRoom removeRoomUpdateCallbacks]
+-[WGVisitorRoom addOperatorGreetingMessage]
+-[WGVisitorRoom isDelayed]
+-[WGVisitorRoom lastMessage]
+-[WGVisitorRoom lastChatMessageData]
+-[WGVisitorRoom updateMessageStatus:]
+-[WGVisitorRoom readMessages]
+___29-[WGVisitorRoom readMessages]_block_invoke
+-[WGVisitorRoom rateUp]
+___23-[WGVisitorRoom rateUp]_block_invoke
+-[WGVisitorRoom rateDown]
+___25-[WGVisitorRoom rateDown]_block_invoke
+-[WGVisitorRoom dealloc]
+-[WGVisitorRoom getReferenceId]
+-[WGVisitorRoom getVoipJson]
+-[WGVisitorRoom visitorId]
+-[WGVisitorRoom siteId]
+-[WGVisitorRoom visitorName]
+-[WGVisitorRoom siteName]
+-[WGVisitorRoom setRoomOcuupants:]
+-[WGVisitorRoom setMessages:]
+-[WGVisitorRoom site]
+-[WGVisitorRoom setSite:]
+-[WGVisitorRoom setUnreadMessagesCount:]
+-[WGVisitorRoom operatorId]
+-[WGVisitorRoom setOperatorId:]
+-[WGVisitorRoom operatorName]
+-[WGVisitorRoom setOperatorName:]
+-[WGVisitorRoom isRoomDestroyed]
+-[WGVisitorRoom setIsRoomDestroyed:]
+-[WGVisitorRoom isRoomNeedUpate]
+-[WGVisitorRoom setIsRoomNeedUpate:]
+-[WGVisitorRoom setHttpMessageId:]
+-[WGVisitorRoom roomId]
+-[WGVisitorRoom xmppRoom]
+-[WGVisitorRoom setXmppRoom:]
+-[WGVisitorRoom isRoomExist]
+-[WGVisitorRoom setIsRoomExist:]
+-[WGVisitorRoom isRoomJoined]
+-[WGVisitorRoom setIsRoomJoined:]
+-[WGVisitorRoom setIsDelayed:]
+-[WGVisitorRoom isRoomJoininng]
+-[WGVisitorRoom setIsRoomJoininng:]
+-[WGVisitorRoom greetingMessage]
+-[WGVisitorRoom setGreetingMessage:]
+-[WGVisitorRoom tmpRoomMessage]
+-[WGVisitorRoom setTmpRoomMessage:]
+-[WGVisitorRoom roomUpdatesCallback]
+-[WGVisitorRoom setRoomUpdatesCallback:]
+-[WGVisitorRoom isRoomEnabled]
+-[WGVisitorRoom setIsRoomEnabled:]
+-[WGVisitorRoom notSentMessages]
+-[WGVisitorRoom setNotSentMessages:]
+-[WGVisitorRoom allLinks]
+-[WGVisitorRoom setAllLinks:]
+-[WGVisitorRoom .cxx_destruct]
+_XMPPMUCNamespace
+_XMPPMUCUserNamespace
+_XMPPMUCAdminNamespace
+_XMPPMUCOwnerNamespace
+___block_descriptor_32_e20_v24?0"NSError"816l
+___block_literal_global
+___block_literal_global.49
+___block_literal_global.57
+___block_literal_global.308
+___block_literal_global.407
+___block_literal_global.418
+___block_literal_global.421
+_OBJC_IVAR_$_WGVisitorRoom.timer
+_OBJC_IVAR_$_WGVisitorRoom.nickName
+_OBJC_IVAR_$_WGVisitorRoom.isRoomDestroyed
+_OBJC_IVAR_$_WGVisitorRoom.isRoomNeedUpate
+_OBJC_IVAR_$_WGVisitorRoom._isRoomJoined
+_OBJC_IVAR_$_WGVisitorRoom._isDelayed
+_OBJC_IVAR_$_WGVisitorRoom._isRoomJoininng
+_OBJC_IVAR_$_WGVisitorRoom._isRoomEnabled
+_OBJC_IVAR_$_WGVisitorRoom.roomOcuupants
+_OBJC_IVAR_$_WGVisitorRoom.messages
+_OBJC_IVAR_$_WGVisitorRoom.site
+_OBJC_IVAR_$_WGVisitorRoom.unreadMessagesCount
+_OBJC_IVAR_$_WGVisitorRoom.operatorId
+_OBJC_IVAR_$_WGVisitorRoom.operatorName
+_OBJC_IVAR_$_WGVisitorRoom._httpMessageId
+_OBJC_IVAR_$_WGVisitorRoom._roomId
+_OBJC_IVAR_$_WGVisitorRoom._xmppRoom
+_OBJC_IVAR_$_WGVisitorRoom._isRoomExist
+_OBJC_IVAR_$_WGVisitorRoom._greetingMessage
+_OBJC_IVAR_$_WGVisitorRoom._tmpRoomMessage
+_OBJC_IVAR_$_WGVisitorRoom._roomUpdatesCallback
+_OBJC_IVAR_$_WGVisitorRoom._notSentMessages
+_OBJC_IVAR_$_WGVisitorRoom._allLinks
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorRoom.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorRoom.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorRoom.h
+__25-[WGVisitorRoom rateDown]_block_invoke
+__23-[WGVisitorRoom rateUp]_block_invoke
+__29-[WGVisitorRoom readMessages]_block_invoke
+__57-[WGVisitorRoom xmppRoom:didReceiveMessage:fromOccupant:]_block_invoke
+__30-[WGVisitorRoom leaveHTTPRoom]_block_invoke
+__35-[WGVisitorRoom recieveHTTPMessage]_block_invoke
+__33-[WGVisitorRoom sendHTTPMessage:]_block_invoke
++[WGVisitorRoomsManager sharedInstance]
+___39+[WGVisitorRoomsManager sharedInstance]_block_invoke
+-[WGVisitorRoomsManager init]
+-[WGVisitorRoomsManager isRoomExists:]
+-[WGVisitorRoomsManager removeRoomByIdIfNotUsedById:]
+-[WGVisitorRoomsManager removeRoomByIdIfNotUsedByObject:]
+-[WGVisitorRoomsManager isUsedByAny:]
+-[WGVisitorRoomsManager removeAllQCRooms]
+-[WGVisitorRoomsManager removeOperatorRooms]
+-[WGVisitorRoomsManager removeAllRooms]
+-[WGVisitorRoomsManager removeRoomById:]
+-[WGVisitorRoomsManager addRoom:]
+-[WGVisitorRoomsManager roomsDict]
+-[WGVisitorRoomsManager setRoomsDict:]
+-[WGVisitorRoomsManager .cxx_destruct]
+_instance
+_sharedInstance.onceToken
+___block_descriptor_32_e5_v8?0l
+_OBJC_IVAR_$_WGVisitorRoomsManager._roomsDict
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorRoomsManager.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorRoomsManager.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorRoomsManager.h
+__39+[WGVisitorRoomsManager sharedInstance]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/dispatch/once.h
+-[WGVisitorSignalRManager init]
++[WGVisitorSignalRManager sharedInstance]
+___41+[WGVisitorSignalRManager sharedInstance]_block_invoke
+-[WGVisitorSignalRManager eventGetMessageStatus:]
+-[WGVisitorSignalRManager UpdateMessageStatus:messageId:messageStatus:reponseCallback:]
+___87-[WGVisitorSignalRManager UpdateMessageStatus:messageId:messageStatus:reponseCallback:]_block_invoke
+___copy_helper_block_e8_32b
+___destroy_helper_block_e8_32s
+-[WGVisitorSignalRManager GetChatMessageIdWithStatus:reponseCallback:]
+___70-[WGVisitorSignalRManager GetChatMessageIdWithStatus:reponseCallback:]_block_invoke
+-[WGVisitorSignalRManager startVisitorInfoJob]
+-[WGVisitorSignalRManager stopJob]
+-[WGVisitorSignalRManager sendVistorInfo]
+___41-[WGVisitorSignalRManager sendVistorInfo]_block_invoke
+-[WGVisitorSignalRManager sendRegisterMeEvent]
+___46-[WGVisitorSignalRManager sendRegisterMeEvent]_block_invoke
+-[WGVisitorSignalRManager sendGetVideoIdByChatIdEvent:reponseCallback:]
+___71-[WGVisitorSignalRManager sendGetVideoIdByChatIdEvent:reponseCallback:]_block_invoke
+___copy_helper_block_e8_32s40b
+___destroy_helper_block_e8_32s40s
+-[WGVisitorSignalRManager sendReloggedEvent:userName:userId:]
+-[WGVisitorSignalRManager invokeMessageEvent:]
+___46-[WGVisitorSignalRManager invokeMessageEvent:]_block_invoke
+-[WGVisitorSignalRManager isEmptyString:]
+-[WGVisitorSignalRManager emitCallback:arg1:arg2:]
+-[WGVisitorSignalRManager addVisitor:]
+-[WGVisitorSignalRManager removeVisitor:]
+-[WGVisitorSignalRManager sendVisitorIdEvent:]
+-[WGVisitorSignalRManager sendRemoveVisitorEvent:]
+-[WGVisitorSignalRManager getVisitorInfo:]
+-[WGVisitorSignalRManager reconnect]
+-[WGVisitorSignalRManager getCurrenUserId]
+-[WGVisitorSignalRManager getCurrentUserName]
+-[WGVisitorSignalRManager visitorsInfoList]
+-[WGVisitorSignalRManager setVisitorsInfoList:]
+-[WGVisitorSignalRManager .cxx_destruct]
+___block_descriptor_40_e8_32bs_e20_v24?0"NSError"816l
+_OBJC_IVAR_$_WGVisitorSignalRManager.visitorInfoTimer
+___block_literal_global.101
+___block_literal_global.112
+___block_descriptor_48_e8_32s40bs_e34_v24?0"NSError"8"NSDictionary"16l
+___block_literal_global.124
+_OBJC_IVAR_$_WGVisitorSignalRManager._visitorsInfoList
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorSignalRManager.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorSignalRManager.m
+__46-[WGVisitorSignalRManager invokeMessageEvent:]_block_invoke
+__destroy_helper_block_e8_32s40s
+__copy_helper_block_e8_32s40b
+__71-[WGVisitorSignalRManager sendGetVideoIdByChatIdEvent:reponseCallback:]_block_invoke
+__46-[WGVisitorSignalRManager sendRegisterMeEvent]_block_invoke
+__41-[WGVisitorSignalRManager sendVistorInfo]_block_invoke
+__70-[WGVisitorSignalRManager GetChatMessageIdWithStatus:reponseCallback:]_block_invoke
+__destroy_helper_block_e8_32s
+__copy_helper_block_e8_32b
+__87-[WGVisitorSignalRManager UpdateMessageStatus:messageId:messageStatus:reponseCallback:]_block_invoke
+__41+[WGVisitorSignalRManager sharedInstance]_block_invoke
+-[WGVisitorSite rooms]
+-[WGVisitorSite joinAllRoom]
+___28-[WGVisitorSite joinAllRoom]_block_invoke
+-[WGVisitorSite closeAllRooms]
+___30-[WGVisitorSite closeAllRooms]_block_invoke
+-[WGVisitorSite dealloc]
+-[WGVisitorSite setRooms:]
+-[WGVisitorSite indexInArray]
+-[WGVisitorSite setIndexInArray:]
+-[WGVisitorSite siteId]
+-[WGVisitorSite setSiteId:]
+-[WGVisitorSite siteName]
+-[WGVisitorSite setSiteName:]
+-[WGVisitorSite siteDesc]
+-[WGVisitorSite setSiteDesc:]
+-[WGVisitorSite .cxx_destruct]
+___block_descriptor_32_e40_v32?0"NSString"8"WGVisitorRoom"16^B24l
+___block_literal_global.7
+_OBJC_IVAR_$_WGVisitorSite._rooms
+_OBJC_IVAR_$_WGVisitorSite.indexInArray
+_OBJC_IVAR_$_WGVisitorSite._siteId
+_OBJC_IVAR_$_WGVisitorSite._siteName
+_OBJC_IVAR_$_WGVisitorSite._siteDesc
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorSite.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorSite.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorSite.h
+__30-[WGVisitorSite closeAllRooms]_block_invoke
+__28-[WGVisitorSite joinAllRoom]_block_invoke
+-[WGVisitorSitesManager init]
+-[WGVisitorSitesManager joinAllOperatorRooms]
+___45-[WGVisitorSitesManager joinAllOperatorRooms]_block_invoke
+___copy_helper_block_e8_32s
+-[WGVisitorSitesManager closeAllOperatorRooms]
+-[WGVisitorSitesManager getWebSite]
+-[WGVisitorSitesManager getCurrentRoom]
+-[WGVisitorSitesManager clearCurrentRoom]
+-[WGVisitorSitesManager joinRoom:]
+-[WGVisitorSitesManager leaveRoom:]
+-[WGVisitorSitesManager visitorPanelWithResult:]
+___48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke
+___48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke_2
+___48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke_3
+___copy_helper_block_e8_32b40s48s56s64s72s80s
+___destroy_helper_block_e8_32s40s48s56s64s72s80s
+___48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke.161
+___copy_helper_block_e8_32s40b48s56s64s
+___destroy_helper_block_e8_32s40s48s56s64s
+___48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke.167
+___copy_helper_block_e8_32b40s48s
+___destroy_helper_block_e8_32s40s48s
+___48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke.168
+-[WGVisitorSitesManager chatPreLan:response:]
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_2
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_3
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_4
+___copy_helper_block_e8_32s40b48s56s
+___destroy_helper_block_e8_32s40s48s56s
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke.239
+___copy_helper_block_e8_32b40s48s56s64s72s
+___destroy_helper_block_e8_32s40s48s56s64s72s
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke.240
+___copy_helper_block_e8_32s40s48s56s64s72s80s88b96s
+___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke.241
+___45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_2.244
+-[WGVisitorSitesManager rateChat:withBlock:]
+___44-[WGVisitorSitesManager rateChat:withBlock:]_block_invoke
+___44-[WGVisitorSitesManager rateChat:withBlock:]_block_invoke.251
+-[WGVisitorSitesManager isChatExist:withBlock:]
+___47-[WGVisitorSitesManager isChatExist:withBlock:]_block_invoke
+___47-[WGVisitorSitesManager isChatExist:withBlock:]_block_invoke_2
+-[WGVisitorSitesManager startChat:withBlock:]
+___45-[WGVisitorSitesManager startChat:withBlock:]_block_invoke
+___45-[WGVisitorSitesManager startChat:withBlock:]_block_invoke.339
+-[WGVisitorSitesManager startChatWithChatId:withBlock:]
+-[WGVisitorSitesManager closeHTTPSession:]
+___42-[WGVisitorSitesManager closeHTTPSession:]_block_invoke
+___42-[WGVisitorSitesManager closeHTTPSession:]_block_invoke_2
+-[WGVisitorSitesManager sendHTTPMessage:withBlock:]
+___51-[WGVisitorSitesManager sendHTTPMessage:withBlock:]_block_invoke
+___51-[WGVisitorSitesManager sendHTTPMessage:withBlock:]_block_invoke_2
+-[WGVisitorSitesManager getHTTPMessage:]
+___40-[WGVisitorSitesManager getHTTPMessage:]_block_invoke
+___copy_helper_block_e8_32s40s48b
+___40-[WGVisitorSitesManager getHTTPMessage:]_block_invoke.393
+-[WGVisitorSitesManager closeSession:]
+-[WGVisitorSitesManager getRoomById:]
+-[WGVisitorSitesManager clearCache]
+-[WGVisitorSitesManager toShowBranding]
+-[WGVisitorSitesManager setToShowBranding:]
+-[WGVisitorSitesManager wgWebsite]
+-[WGVisitorSitesManager setWgWebsite:]
+-[WGVisitorSitesManager websiteDomainName]
+-[WGVisitorSitesManager setWebsiteDomainName:]
+-[WGVisitorSitesManager preferredLanguage]
+-[WGVisitorSitesManager setPreferredLanguage:]
+-[WGVisitorSitesManager allRooms]
+-[WGVisitorSitesManager setAllRooms:]
+-[WGVisitorSitesManager .cxx_destruct]
+___block_descriptor_40_e8_32s_e20_v24?0"NSError"816l
+___block_descriptor_88_e8_32bs40s48s56s64s72s80s_e24_v24?0"NSOperation"816l
+___block_descriptor_40_e8_32bs_e33_v24?0"NSOperation"8"NSError"16l
+___block_descriptor_72_e8_32s40bs48s56s64s_e24_v24?0"NSOperation"816l
+___block_descriptor_56_e8_32bs40s48s_e24_v24?0"NSOperation"816l
+___block_descriptor_64_e8_32s40bs48s56s_e24_v24?0"NSOperation"816l
+___block_descriptor_80_e8_32bs40s48s56s64s72s_e24_v24?0"NSOperation"816l
+___block_descriptor_104_e8_32s40s48s56s64s72s80s88bs96s_e24_v24?0"NSOperation"816l
+___block_descriptor_40_e8_32bs_e24_v24?0"NSOperation"816l
+___block_descriptor_48_e8_32s40bs_e24_v24?0"NSOperation"816l
+___block_descriptor_56_e8_32s40s48bs_e24_v24?0"NSOperation"816l
+_OBJC_IVAR_$_WGVisitorSitesManager.userName
+_OBJC_IVAR_$_WGVisitorSitesManager.greetingId
+_OBJC_IVAR_$_WGVisitorSitesManager.toShowBranding
+_OBJC_IVAR_$_WGVisitorSitesManager._wgWebsite
+_OBJC_IVAR_$_WGVisitorSitesManager._websiteDomainName
+_OBJC_IVAR_$_WGVisitorSitesManager._preferredLanguage
+_OBJC_IVAR_$_WGVisitorSitesManager._allRooms
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorSitesManager.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorSitesManager.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorSitesManager.h
+__40-[WGVisitorSitesManager getHTTPMessage:]_block_invoke.393
+__copy_helper_block_e8_32s40s48b
+__40-[WGVisitorSitesManager getHTTPMessage:]_block_invoke
+__51-[WGVisitorSitesManager sendHTTPMessage:withBlock:]_block_invoke_2
+__51-[WGVisitorSitesManager sendHTTPMessage:withBlock:]_block_invoke
+__42-[WGVisitorSitesManager closeHTTPSession:]_block_invoke_2
+__42-[WGVisitorSitesManager closeHTTPSession:]_block_invoke
+__45-[WGVisitorSitesManager startChat:withBlock:]_block_invoke.339
+__45-[WGVisitorSitesManager startChat:withBlock:]_block_invoke
+__47-[WGVisitorSitesManager isChatExist:withBlock:]_block_invoke_2
+__47-[WGVisitorSitesManager isChatExist:withBlock:]_block_invoke
+__44-[WGVisitorSitesManager rateChat:withBlock:]_block_invoke.251
+__44-[WGVisitorSitesManager rateChat:withBlock:]_block_invoke
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_2.244
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke.241
+__destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s
+__copy_helper_block_e8_32s40s48s56s64s72s80s88b96s
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke.240
+__destroy_helper_block_e8_32s40s48s56s64s72s
+__copy_helper_block_e8_32b40s48s56s64s72s
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke.239
+__destroy_helper_block_e8_32s40s48s56s
+__copy_helper_block_e8_32s40b48s56s
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_4
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_3
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke_2
+__45-[WGVisitorSitesManager chatPreLan:response:]_block_invoke
+__48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke.168
+__destroy_helper_block_e8_32s40s48s
+__copy_helper_block_e8_32b40s48s
+__48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke.167
+__destroy_helper_block_e8_32s40s48s56s64s
+__copy_helper_block_e8_32s40b48s56s64s
+__48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke.161
+__destroy_helper_block_e8_32s40s48s56s64s72s80s
+__copy_helper_block_e8_32b40s48s56s64s72s80s
+__48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke_3
+__48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke_2
+__48-[WGVisitorSitesManager visitorPanelWithResult:]_block_invoke
+__copy_helper_block_e8_32s
+__45-[WGVisitorSitesManager joinAllOperatorRooms]_block_invoke
+-[WGVisitorUser username]
+-[WGVisitorUser setUsername:]
+-[WGVisitorUser name]
+-[WGVisitorUser setName:]
+-[WGVisitorUser email]
+-[WGVisitorUser setEmail:]
+-[WGVisitorUser phone]
+-[WGVisitorUser setPhone:]
+-[WGVisitorUser userId]
+-[WGVisitorUser setUserId:]
+-[WGVisitorUser active]
+-[WGVisitorUser setActive:]
+-[WGVisitorUser .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorUser._username
+_OBJC_IVAR_$_WGVisitorUser._name
+_OBJC_IVAR_$_WGVisitorUser._email
+_OBJC_IVAR_$_WGVisitorUser._phone
+_OBJC_IVAR_$_WGVisitorUser._userId
+_OBJC_IVAR_$_WGVisitorUser._active
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorUser.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorUser.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Models/WGVisitorUser.h
+-[WGVisitorWebService logout]
+-[WGVisitorWebService loginClientUser:]
+-[WGVisitorWebService urlBuilder:]
+-[WGVisitorWebService requestDataWithParameters:method:serviceName:success:failure:]
+___84-[WGVisitorWebService requestDataWithParameters:method:serviceName:success:failure:]_block_invoke
+___copy_helper_block_e8_32b40b
+-[WGVisitorWebService requestData:withParameters:soapAction:serviceName:success:failure:]
+___89-[WGVisitorWebService requestData:withParameters:soapAction:serviceName:success:failure:]_block_invoke
+-[WGVisitorWebService formatRequest:WithParameters:]
+-[WGVisitorWebService initSingleton]
++[WGVisitorWebService sharedInstance]
+___37+[WGVisitorWebService sharedInstance]_block_invoke
+-[WGVisitorWebService sendofflineContactToServer:WithBlock:]
+___60-[WGVisitorWebService sendofflineContactToServer:WithBlock:]_block_invoke
+___60-[WGVisitorWebService sendofflineContactToServer:WithBlock:]_block_invoke.157
+-[WGVisitorWebService getLanguagesList:WithBlock:]
+___50-[WGVisitorWebService getLanguagesList:WithBlock:]_block_invoke
+___50-[WGVisitorWebService getLanguagesList:WithBlock:]_block_invoke_2
+-[WGVisitorWebService uploadFile:success:failure:]
+___50-[WGVisitorWebService uploadFile:success:failure:]_block_invoke
+-[WGVisitorWebService generateBoundaryString]
+-[WGVisitorWebService isHTTPClient]
+-[WGVisitorWebService setIsHTTPClient:]
+-[WGVisitorWebService currentUser]
+-[WGVisitorWebService setCurrentUser:]
+-[WGVisitorWebService timer]
+-[WGVisitorWebService setTimer:]
+-[WGVisitorWebService isOperatorServiceActive]
+-[WGVisitorWebService setIsOperatorServiceActive:]
+-[WGVisitorWebService isQAServiceActive]
+-[WGVisitorWebService setIsQAServiceActive:]
+-[WGVisitorWebService .cxx_destruct]
+___block_descriptor_48_e8_32bs40bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+___block_descriptor_40_e8_32bs_e46_v32?0"NSData"8"NSURLResponse"16"NSError"24l
+_sharedInstance._default
+_sharedInstance.safer
+___block_descriptor_40_e8_32bs_e26_v24?0"NSURLResponse"816l
+___block_descriptor_40_e8_32bs_e35_v24?0"NSURLResponse"8"NSError"16l
+_OBJC_IVAR_$_WGVisitorWebService._isHTTPClient
+_OBJC_IVAR_$_WGVisitorWebService._isOperatorServiceActive
+_OBJC_IVAR_$_WGVisitorWebService._isQAServiceActive
+_OBJC_IVAR_$_WGVisitorWebService._currentUser
+_OBJC_IVAR_$_WGVisitorWebService._timer
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorWebService.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorWebService.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorWebService.h
+__50-[WGVisitorWebService uploadFile:success:failure:]_block_invoke
+__50-[WGVisitorWebService getLanguagesList:WithBlock:]_block_invoke_2
+__50-[WGVisitorWebService getLanguagesList:WithBlock:]_block_invoke
+__60-[WGVisitorWebService sendofflineContactToServer:WithBlock:]_block_invoke.157
+__60-[WGVisitorWebService sendofflineContactToServer:WithBlock:]_block_invoke
+__37+[WGVisitorWebService sharedInstance]_block_invoke
+__89-[WGVisitorWebService requestData:withParameters:soapAction:serviceName:success:failure:]_block_invoke
+__copy_helper_block_e8_32b40b
+__84-[WGVisitorWebService requestDataWithParameters:method:serviceName:success:failure:]_block_invoke
+-[WGVisitorXMPPClient sitesManager]
+-[WGVisitorXMPPClient initSingleton]
+-[WGVisitorXMPPClient isInternetAvaliable]
+-[WGVisitorXMPPClient removeIdleRooms:]
+-[WGVisitorXMPPClient joinXmpproomwitChatID:]
+-[WGVisitorXMPPClient createXmpproomwithwebsiteID:chatId:description:operatorId:forGreeting:forUser:]
++[WGVisitorXMPPClient instance]
+___31+[WGVisitorXMPPClient instance]_block_invoke
+-[WGVisitorXMPPClient dealloc]
+-[WGVisitorXMPPClient managedObjectContext_roster]
+-[WGVisitorXMPPClient managedObjectContext_capabilities]
+-[WGVisitorXMPPClient setupStream]
+-[WGVisitorXMPPClient xmppReconnect:didDetectAccidentalDisconnect:]
+-[WGVisitorXMPPClient teardownStream]
+-[WGVisitorXMPPClient goOnline]
+-[WGVisitorXMPPClient scheduler]
+-[WGVisitorXMPPClient performForcefullLogout]
+-[WGVisitorXMPPClient goOffline]
+-[WGVisitorXMPPClient connect]
+-[WGVisitorXMPPClient connectUser:]
+-[WGVisitorXMPPClient disconnect]
+-[WGVisitorXMPPClient signout]
+-[WGVisitorXMPPClient xmppStream:socketWillConnect:]
+___52-[WGVisitorXMPPClient xmppStream:socketWillConnect:]_block_invoke
+-[WGVisitorXMPPClient xmppStream:socketDidConnect:]
+-[WGVisitorXMPPClient xmppStream:willSecureWithSettings:]
+-[WGVisitorXMPPClient xmppStreamDidSecure:]
+-[WGVisitorXMPPClient xmppStreamDidConnect:]
+-[WGVisitorXMPPClient authenticateAnonymousUser]
+-[WGVisitorXMPPClient xmppStreamDidAuthenticate:]
+-[WGVisitorXMPPClient xmppStream:didNotAuthenticate:]
+-[WGVisitorXMPPClient xmppStream:didReceiveIQ:]
+-[WGVisitorXMPPClient xmppStream:didReceiveMessage:]
+-[WGVisitorXMPPClient xmppStream:didReceivePresence:]
+-[WGVisitorXMPPClient sendDefaultRoomConfig:]
+-[WGVisitorXMPPClient inviteUser]
+-[WGVisitorXMPPClient xmppStream:didReceiveError:]
+-[WGVisitorXMPPClient xmppStreamDidDisconnect:withError:]
+-[WGVisitorXMPPClient xmppRoster:didReceiveBuddyRequest:]
+-[WGVisitorXMPPClient xmppRoom:didReceiveMessage:fromOccupant:]
+-[WGVisitorXMPPClient xmppRoomDidCreate:]
+-[WGVisitorXMPPClient xmppRoomDidJoin:]
+-[WGVisitorXMPPClient addStreamDelegate:]
+-[WGVisitorXMPPClient removeStreamDelegate:]
+-[WGVisitorXMPPClient performLoacalNotification:]
+-[WGVisitorXMPPClient addInternetListener]
+___42-[WGVisitorXMPPClient addInternetListener]_block_invoke
+___42-[WGVisitorXMPPClient addInternetListener]_block_invoke.370
+-[WGVisitorXMPPClient xmppReconnect:shouldAttemptAutoReconnect:]
+-[WGVisitorXMPPClient xmppStream]
+-[WGVisitorXMPPClient xmppReconnect]
+-[WGVisitorXMPPClient xmppRoster]
+-[WGVisitorXMPPClient xmppRosterStorage]
+-[WGVisitorXMPPClient xmppvCardTempModule]
+-[WGVisitorXMPPClient xmppvCardAvatarModule]
+-[WGVisitorXMPPClient xmppCapabilities]
+-[WGVisitorXMPPClient xmppCapabilitiesStorage]
+-[WGVisitorXMPPClient wgCanMessagesArray]
+-[WGVisitorXMPPClient setWgCanMessagesArray:]
+-[WGVisitorXMPPClient setSitesManager:]
+-[WGVisitorXMPPClient badgeCount]
+-[WGVisitorXMPPClient setBadgeCount:]
+-[WGVisitorXMPPClient messageCounterForOperatorBadge]
+-[WGVisitorXMPPClient setMessageCounterForOperatorBadge:]
+-[WGVisitorXMPPClient operatorScreenActive]
+-[WGVisitorXMPPClient setOperatorScreenActive:]
+-[WGVisitorXMPPClient panelType]
+-[WGVisitorXMPPClient setPanelType:]
+-[WGVisitorXMPPClient isDisconnectedAllRooms]
+-[WGVisitorXMPPClient setIsDisconnectedAllRooms:]
+-[WGVisitorXMPPClient _chatDelegate]
+-[WGVisitorXMPPClient set_chatDelegate:]
+-[WGVisitorXMPPClient _messageDelegate]
+-[WGVisitorXMPPClient set_messageDelegate:]
+-[WGVisitorXMPPClient isXmppConnected]
+-[WGVisitorXMPPClient setIsXmppConnected:]
+-[WGVisitorXMPPClient timerForQAScreen]
+-[WGVisitorXMPPClient setTimerForQAScreen:]
+-[WGVisitorXMPPClient isxmppStreamDisconnected]
+-[WGVisitorXMPPClient setIsxmppStreamDisconnected:]
+-[WGVisitorXMPPClient reachability]
+-[WGVisitorXMPPClient setReachability:]
+-[WGVisitorXMPPClient .cxx_destruct]
+_instance._default
+_instance.safer
+___block_descriptor_40_e8_32s_e5_v8?0l
+___block_descriptor_40_e8_32s_e22_v16?0"Reachability"8l
+___block_descriptor_32_e22_v16?0"Reachability"8l
+___block_literal_global.371
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppStream
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppReconnect
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppRoster
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppRosterStorage
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppvCardStorage
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppvCardTempModule
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppvCardAvatarModule
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppCapabilities
+_OBJC_IVAR_$_WGVisitorXMPPClient.xmppCapabilitiesStorage
+_OBJC_IVAR_$_WGVisitorXMPPClient.operatorScreenActive
+_OBJC_IVAR_$_WGVisitorXMPPClient.isDisconnectedAllRooms
+_OBJC_IVAR_$_WGVisitorXMPPClient._isXmppConnected
+_OBJC_IVAR_$_WGVisitorXMPPClient._isxmppStreamDisconnected
+_OBJC_IVAR_$_WGVisitorXMPPClient.badgeCount
+_OBJC_IVAR_$_WGVisitorXMPPClient.messageCounterForOperatorBadge
+_OBJC_IVAR_$_WGVisitorXMPPClient.wgCanMessagesArray
+_OBJC_IVAR_$_WGVisitorXMPPClient._sitesManager
+_OBJC_IVAR_$_WGVisitorXMPPClient.panelType
+_OBJC_IVAR_$_WGVisitorXMPPClient.__chatDelegate
+_OBJC_IVAR_$_WGVisitorXMPPClient.__messageDelegate
+_OBJC_IVAR_$_WGVisitorXMPPClient._timerForQAScreen
+_OBJC_IVAR_$_WGVisitorXMPPClient._reachability
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorXMPPClient.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorXMPPClient.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Network/WGVisitorXMPPClient.h
+__42-[WGVisitorXMPPClient addInternetListener]_block_invoke.370
+__42-[WGVisitorXMPPClient addInternetListener]_block_invoke
+__52-[WGVisitorXMPPClient xmppStream:socketWillConnect:]_block_invoke
+__31+[WGVisitorXMPPClient instance]_block_invoke
+-[XMPPMessage(WGVisitor) chatId]
+-[XMPPMessage(WGVisitor) websiteId]
+-[XMPPMessage(WGVisitor) managerId]
+-[XMPPMessage(WGVisitor) visitorId]
+-[XMPPMessage(WGVisitor) visitorName]
+-[XMPPMessage(WGVisitor) greeting]
+-[XMPPMessage(WGVisitor) wgChatMessage]
+-[XMPPMessage(WGVisitor) wgChatSender]
+-[XMPPMessage(WGVisitor) wgChatRoomId]
+-[XMPPMessage(WGVisitor) registerNamespaces]
+-[XMPPMessage(WGVisitor) getTimeStamp]
+-[XMPPMessage(WGVisitor) processDate:]
+-[XMPPMessage(WGVisitor) isGroupChat]
+-[XMPPMessage(WGVisitor) addComposingState]
+-[XMPPMessage(WGVisitor) isErrorMessage]
+-[XMPPMessage(WGVisitor) messageId]
+-[XMPPMessage(WGVisitor) ignoreMessage]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/XMPPMessage+WGVisitor.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/XMPPMessage+WGVisitor.m
+-[XMPPRoom(WGVisitor) sendWGVisitorMessage:userId:websiteId:managerId:visitorName:chatId:]
+___90-[XMPPRoom(WGVisitor) sendWGVisitorMessage:userId:websiteId:managerId:visitorName:chatId:]_block_invoke
+___copy_helper_block_e8_32s40s48s56s64s72s80s
+-[XMPPRoom(WGVisitor) sendWGVisitorInvite:userId:websiteId:managerId:visitorName:chatId:operatorID:]
+___100-[XMPPRoom(WGVisitor) sendWGVisitorInvite:userId:websiteId:managerId:visitorName:chatId:operatorID:]_block_invoke
+___copy_helper_block_e8_32s40s48s
+-[XMPPRoom(WGVisitor) sendWGVisitorRoomDestroyMessageUserid:andWebSiteId:andVisitorName:andChatId:]
+-[XMPPRoom(WGVisitor) sendActiveChatState]
+-[XMPPRoom(WGVisitor) sendComposingChatState]
+-[XMPPRoom(WGVisitor) sendPausedChatState]
+-[XMPPRoom(WGVisitor) sendInactiveChatState]
+-[XMPPRoom(WGVisitor) sendGoneChatState]
+-[XMPPRoom(WGVisitor) getWGVisitorGroupMessage]
+-[XMPPRoom(WGVisitor) disconnect]
+___block_descriptor_88_e8_32s40s48s56s64s72s80s_e5_v8?0l
+___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/XMPPRoom+WGVisitor.m
+WGVisitorPods/WGVisitorCore/WGVisitorCore/Categories/XMPPRoom+WGVisitor.m
+__copy_helper_block_e8_32s40s48s
+__100-[XMPPRoom(WGVisitor) sendWGVisitorInvite:userId:websiteId:managerId:visitorName:chatId:operatorID:]_block_invoke
+__copy_helper_block_e8_32s40s48s56s64s72s80s
+__90-[XMPPRoom(WGVisitor) sendWGVisitorMessage:userId:websiteId:managerId:visitorName:chatId:]_block_invoke
+/Users/zaighammaqsood/Library/Developer/Xcode/DerivedData/WGVisitorDemo_IOS-cfcqyxgvpcwzsdewxycufppxbbwn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/WGVisitorCore.build/DerivedSources/WGVisitorCore_vers.c
+__ZL15__ARCLite__loadv
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=arm64-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/arm64 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/arm64/arclite.o -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=530
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_lazy_pointers
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter

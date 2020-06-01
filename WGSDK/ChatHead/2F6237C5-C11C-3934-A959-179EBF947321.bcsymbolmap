@@ -1,0 +1,633 @@
+BCSymbolMap Version: 2.0
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorDemo/Swift/Pods/Target Support Files/ChatHead/ChatHead-dummy.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorDemo/Swift/Pods
++[ChatHeadManager sharedInstance]
+___33+[ChatHeadManager sharedInstance]_block_invoke
++[ChatHeadManager sharedVisitorInstance]
+___40+[ChatHeadManager sharedVisitorInstance]_block_invoke
+-[ChatHeadManager setupWithWindow:chDraggingCoordinatorDelegate:]
+-[ChatHeadManager getRoomCallback]
+___34-[ChatHeadManager getRoomCallback]_block_invoke
+___34-[ChatHeadManager getRoomCallback]_block_invoke_2
+___copy_helper_block_e4_20s24s28w
+___destroy_helper_block_e4_20s24s28w
+___copy_helper_block_e4_20s24w
+___destroy_helper_block_e4_20s24w
+-[ChatHeadManager addDraggableListeners:]
+___41-[ChatHeadManager addDraggableListeners:]_block_invoke
+___41-[ChatHeadManager addDraggableListeners:]_block_invoke_2
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+___41-[ChatHeadManager addDraggableListeners:]_block_invoke.72
+___41-[ChatHeadManager addDraggableListeners:]_block_invoke_2.77
+___copy_helper_block_e4_20b24w
+-[ChatHeadManager addDragViewWithCoordinator:dataDelegate:chatViews:color:]
+-[ChatHeadManager addDeleteViewinWindow]
+_CGRectMake
+-[ChatHeadManager deleteChatHead]
+-[ChatHeadManager removeChatHeadsResources]
+-[ChatHeadManager dealloc]
+-[ChatHeadManager showDraggableViewIfRequired]
+-[ChatHeadManager setShowDraggableViewIfRequired:]
+-[ChatHeadManager window]
+-[ChatHeadManager setWindow:]
+-[ChatHeadManager deleteView]
+-[ChatHeadManager setDeleteView:]
+-[ChatHeadManager currentRoom]
+-[ChatHeadManager setCurrentRoom:]
+-[ChatHeadManager draggableView]
+-[ChatHeadManager setDraggableView:]
+-[ChatHeadManager draggingCoordinator]
+-[ChatHeadManager setDraggingCoordinator:]
+-[ChatHeadManager chatViews]
+-[ChatHeadManager setChatViews:]
+-[ChatHeadManager chDraggingCoordinatorDelegate]
+-[ChatHeadManager setChDraggingCoordinatorDelegate:]
+-[ChatHeadManager chatHeadColor]
+-[ChatHeadManager setChatHeadColor:]
+-[ChatHeadManager .cxx_destruct]
+_instance
+_sharedInstance.onceToken
+___block_descriptor_20_e5_v4?0l
+___block_literal_global
+_visitorInstance
+_sharedVisitorInstance.onceToken
+___block_literal_global.3
+___block_descriptor_36_e4_20s24s28w_e5_v4?0l
+___block_descriptor_28_e4_20s24w_e10_v12?04i8l
+___block_descriptor_24_e4_20s_e5_v4?0l
+___block_descriptor_24_e4_20s_e23_v8?0"NSNotification"4l
+___block_descriptor_28_e4_20s24w_e5_v4?0l
+___block_descriptor_28_e4_20bs24w_e23_v8?0"NSNotification"4l
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_CHDraggingCoordinatorDelegate
+__OBJC_LABEL_PROTOCOL_$_CHDraggingCoordinatorDelegate
+_OBJC_IVAR_$_ChatHeadManager._showDraggableViewIfRequired
+_OBJC_IVAR_$_ChatHeadManager._window
+_OBJC_IVAR_$_ChatHeadManager._deleteView
+_OBJC_IVAR_$_ChatHeadManager._currentRoom
+_OBJC_IVAR_$_ChatHeadManager._draggableView
+_OBJC_IVAR_$_ChatHeadManager._draggingCoordinator
+_OBJC_IVAR_$_ChatHeadManager._chatViews
+_OBJC_IVAR_$_ChatHeadManager._chDraggingCoordinatorDelegate
+_OBJC_IVAR_$_ChatHeadManager._chatHeadColor
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/ChatHeadManager.m
+ChatHead/ChatHead/Classes/ChatHeadManager.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod
+ChatHead/ChatHead/Classes/ChatHeadManager.h
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__copy_helper_block_e4_20b24w
+__41-[ChatHeadManager addDraggableListeners:]_block_invoke_2.77
+__41-[ChatHeadManager addDraggableListeners:]_block_invoke.72
+dispatch_get_main_queue
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/dispatch/queue.h
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__41-[ChatHeadManager addDraggableListeners:]_block_invoke_2
+__41-[ChatHeadManager addDraggableListeners:]_block_invoke
+__destroy_helper_block_e4_20s24w
+__copy_helper_block_e4_20s24w
+__destroy_helper_block_e4_20s24s28w
+__copy_helper_block_e4_20s24s28w
+__34-[ChatHeadManager getRoomCallback]_block_invoke_2
+__34-[ChatHeadManager getRoomCallback]_block_invoke
+__40+[ChatHeadManager sharedVisitorInstance]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/dispatch/once.h
+__33+[ChatHeadManager sharedInstance]_block_invoke
+-[CHAvatarView init]
+-[CHAvatarView initWithFrame:]
+_CGSizeMake
+-[CHAvatarView drawRect:]
+-[CHAvatarView image]
+-[CHAvatarView setImage:]
+-[CHAvatarView .cxx_destruct]
+_OBJC_IVAR_$_CHAvatarView._image
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/CHAvatarView.m
+ChatHead/ChatHead/Classes/CHAvatarView.m
+ChatHead/ChatHead/Classes/CHAvatarView.h
+CGSizeMake
++[CHDraggableView(Avatar) draggableViewWithImage:withBackgroundColor:]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/CHDraggableView+Avatar.m
+ChatHead/ChatHead/Classes/CHDraggableView+Avatar.m
+-[CHDraggableView init]
+-[CHDraggableView initWithFrame:]
+-[CHDraggableView showSubViews]
+-[CHDraggableView hideSubViews]
+-[CHDraggableView reloadData:]
+___30-[CHDraggableView reloadData:]_block_invoke
+-[CHDraggableView reloadBadge]
+-[CHDraggableView snapViewCenterToPoint:edge:]
+-[CHDraggableView touchesBegan:withEvent:]
+-[CHDraggableView touchesMoved:withEvent:]
+___42-[CHDraggableView touchesMoved:withEvent:]_block_invoke
+-[CHDraggableView touchesEnded:withEvent:]
+-[CHDraggableView touchesCancelled:withEvent:]
+-[CHDraggableView endUpTouch]
+-[CHDraggableView _distanceFromPoint:toPoint:]
+-[CHDraggableView _angleFromPoint:toPoint:]
+-[CHDraggableView _moveByDeltaX:deltaY:]
+___40-[CHDraggableView _moveByDeltaX:deltaY:]_block_invoke
+_CGPointMake
+-[CHDraggableView _beginHoldAnimation]
+-[CHDraggableView _beginReleaseAnimation]
+-[CHDraggableView _snapViewCenterToPoint:edge:]
+-[CHDraggableView layoutSubviews]
+-[CHDraggableView dealloc]
+-[CHDraggableView delegate]
+-[CHDraggableView setDelegate:]
+-[CHDraggableView dataDelegate]
+-[CHDraggableView setDataDelegate:]
+-[CHDraggableView chatHeadExpanded]
+-[CHDraggableView setChatHeadExpanded:]
+-[CHDraggableView moved]
+-[CHDraggableView setMoved:]
+-[CHDraggableView scaledDown]
+-[CHDraggableView setScaledDown:]
+-[CHDraggableView startTouchPoint]
+-[CHDraggableView setStartTouchPoint:]
+-[CHDraggableView draggableViewColor]
+-[CHDraggableView setDraggableViewColor:]
+-[CHDraggableView .cxx_destruct]
+_OBJC_IVAR_$_CHDraggableView._startTouchPoint
+_OBJC_IVAR_$_CHDraggableView._scaledDown
+_OBJC_IVAR_$_CHDraggableView._delegate
+_OBJC_IVAR_$_CHDraggableView._moved
+___block_descriptor_32_e4_20s_e5_v4?0l
+_OBJC_IVAR_$_CHDraggableView._dataDelegate
+_OBJC_IVAR_$_CHDraggableView._chatHeadExpanded
+_OBJC_IVAR_$_CHDraggableView._draggableViewColor
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/CHDraggableView.m
+ChatHead/ChatHead/Classes/CHDraggableView.m
+ChatHead/ChatHead/Classes/CHDraggableView.h
+CGPointMake
+__40-[CHDraggableView _moveByDeltaX:deltaY:]_block_invoke
+__42-[CHDraggableView touchesMoved:withEvent:]_block_invoke
+__30-[CHDraggableView reloadData:]_block_invoke
+-[CHDraggingCoordinator initWithWindow:]
+-[CHDraggingCoordinator _dropArea]
+-[CHDraggingCoordinator _conversationArea]
+-[CHDraggingCoordinator _destinationEdgeForReleasePointInCurrentState:]
+-[CHDraggingCoordinator _destinationPointForReleasePoint:]
+-[CHDraggingCoordinator draggableViewHold:]
+-[CHDraggingCoordinator draggableView:didMoveToPoint:]
+-[CHDraggingCoordinator draggableViewReleased:]
+-[CHDraggingCoordinator draggableViewTouched:]
+-[CHDraggingCoordinator draggableViewNeedsAlignment:]
+-[CHDraggingCoordinator _animateViewToEdges:]
+-[CHDraggingCoordinator _animateView:toEdgePoint:]
+-[CHDraggingCoordinator _animateViewToConversationArea:]
+-[CHDraggingCoordinator _navigationControllerFrame]
+-[CHDraggingCoordinator _navigationControllerHiddenFrame]
+-[CHDraggingCoordinator _presentViewControllerForDraggableView:]
+___64-[CHDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke
+-[CHDraggingCoordinator getPresentedChatDetailController]
+-[CHDraggingCoordinator _dismissPresentedNavigationController]
+___62-[CHDraggingCoordinator _dismissPresentedNavigationController]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]
+___72-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]_block_invoke
+___72-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]_block_invoke.106
+___72-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]_block_invoke_2
+-[CHDraggingCoordinator _hidePresentedNavigationControllerCompletion:]
+___70-[CHDraggingCoordinator _hidePresentedNavigationControllerCompletion:]_block_invoke
+___70-[CHDraggingCoordinator _hidePresentedNavigationControllerCompletion:]_block_invoke.114
+___copy_helper_block_e4_20s24s28b
+___destroy_helper_block_e4_20s24s28s
+-[CHDraggingCoordinator dealloc]
+-[CHDraggingCoordinator presentedNavigationController]
+-[CHDraggingCoordinator setPresentedNavigationController:]
+-[CHDraggingCoordinator snappingEdge]
+-[CHDraggingCoordinator setSnappingEdge:]
+-[CHDraggingCoordinator delegate]
+-[CHDraggingCoordinator setDelegate:]
+-[CHDraggingCoordinator state]
+-[CHDraggingCoordinator setState:]
+-[CHDraggingCoordinator draggableViewBounds]
+-[CHDraggingCoordinator setDraggableViewBounds:]
+-[CHDraggingCoordinator window]
+-[CHDraggingCoordinator setWindow:]
+-[CHDraggingCoordinator edgePointDictionary]
+-[CHDraggingCoordinator setEdgePointDictionary:]
+-[CHDraggingCoordinator backgroundView]
+-[CHDraggingCoordinator setBackgroundView:]
+-[CHDraggingCoordinator .cxx_destruct]
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+___block_descriptor_48_e4_20s_e5_v4?0l
+___block_descriptor_48_e4_20s_e7_v8?0c4l
+___block_descriptor_32_e4_20s24s28bs_e7_v8?0c4l
+__OBJC_PROTOCOL_$_CHDraggableViewDelegate
+__OBJC_LABEL_PROTOCOL_$_CHDraggableViewDelegate
+_OBJC_IVAR_$_CHDraggingCoordinator._presentedNavigationController
+_OBJC_IVAR_$_CHDraggingCoordinator._snappingEdge
+_OBJC_IVAR_$_CHDraggingCoordinator._delegate
+_OBJC_IVAR_$_CHDraggingCoordinator._state
+_OBJC_IVAR_$_CHDraggingCoordinator._window
+_OBJC_IVAR_$_CHDraggingCoordinator._edgePointDictionary
+_OBJC_IVAR_$_CHDraggingCoordinator._backgroundView
+_OBJC_IVAR_$_CHDraggingCoordinator._draggableViewBounds
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/CHDraggingCoordinator.m
+ChatHead/ChatHead/Classes/CHDraggingCoordinator.m
+ChatHead/ChatHead/Classes/CHDraggingCoordinator.h
+__destroy_helper_block_e4_20s24s28s
+__copy_helper_block_e4_20s24s28b
+__70-[CHDraggingCoordinator _hidePresentedNavigationControllerCompletion:]_block_invoke.114
+__70-[CHDraggingCoordinator _hidePresentedNavigationControllerCompletion:]_block_invoke
+__72-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]_block_invoke_2
+__72-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]_block_invoke.106
+__72-[CHDraggingCoordinator _unhidePresentedNavigationControllerCompletion:]_block_invoke
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__62-[CHDraggingCoordinator _dismissPresentedNavigationController]_block_invoke
+__64-[CHDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke
+-[HeaderView initWithManager:]
+-[HeaderView awakeFromNib]
+-[HeaderView reloadData]
+___24-[HeaderView reloadData]_block_invoke
+___24-[HeaderView reloadData]_block_invoke.68
+-[HeaderView collectionView:numberOfItemsInSection:]
+-[HeaderView collectionView:cellForItemAtIndexPath:]
+-[HeaderView longTapPressed:]
+-[HeaderView reloadCollectionView]
+-[HeaderView collectionView:layout:sizeForItemAtIndexPath:]
+-[HeaderView collectionView:didSelectItemAtIndexPath:]
+-[HeaderView closeButton:]
+-[HeaderView leftSwipe]
+-[HeaderView rightSwipe]
+-[HeaderView dealloc]
+-[HeaderView collectionView]
+-[HeaderView setCollectionView:]
+-[HeaderView localDataSource]
+-[HeaderView setLocalDataSource:]
+-[HeaderView headerViewColor]
+-[HeaderView setHeaderViewColor:]
+-[HeaderView chatheadManager]
+-[HeaderView setChatheadManager:]
+-[HeaderView roomSelected]
+-[HeaderView setRoomSelected:]
+-[HeaderView chatClosed]
+-[HeaderView setChatClosed:]
+-[HeaderView .cxx_destruct]
+_OBJC_IVAR_$_HeaderView.currentRoom
+_OBJC_IVAR_$_HeaderView._collectionView
+_OBJC_IVAR_$_HeaderView._localDataSource
+_OBJC_IVAR_$_HeaderView._headerViewColor
+_OBJC_IVAR_$_HeaderView._chatheadManager
+_OBJC_IVAR_$_HeaderView._roomSelected
+_OBJC_IVAR_$_HeaderView._chatClosed
+__OBJC_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDataSource
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegate
+__OBJC_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+__OBJC_LABEL_PROTOCOL_$_UICollectionViewDelegateFlowLayout
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/HeaderView.m
+ChatHead/ChatHead/Classes/HeaderView.m
+ChatHead/ChatHead/Classes/HeaderView.h
+__24-[HeaderView reloadData]_block_invoke.68
+__24-[HeaderView reloadData]_block_invoke
+-[HeaderViewCell awakeFromNib]
+-[HeaderViewCell setRoom:]
+___26-[HeaderViewCell setRoom:]_block_invoke
+___26-[HeaderViewCell setRoom:]_block_invoke_2
+___copy_helper_block_e4_20w
+___destroy_helper_block_e4_20w
+-[HeaderViewCell startTyping:]
+___30-[HeaderViewCell startTyping:]_block_invoke
+-[HeaderViewCell endTyping:]
+-[HeaderViewCell reloadData:]
+___29-[HeaderViewCell reloadData:]_block_invoke
+-[HeaderViewCell reloadBadge:]
++[HeaderViewCell getSize:]
+-[HeaderViewCell startWobble]
+___29-[HeaderViewCell startWobble]_block_invoke
+-[HeaderViewCell stopWobble]
+___28-[HeaderViewCell stopWobble]_block_invoke
+-[HeaderViewCell dealloc]
+-[HeaderViewCell showAsSelected]
+-[HeaderViewCell showAsUnSelected]
+-[HeaderViewCell userImageView]
+-[HeaderViewCell setUserImageView:]
+-[HeaderViewCell longTap]
+-[HeaderViewCell setLongTap:]
+-[HeaderViewCell btnDelete]
+-[HeaderViewCell setBtnDelete:]
+-[HeaderViewCell room]
+-[HeaderViewCell visitorName]
+-[HeaderViewCell setVisitorName:]
+-[HeaderViewCell typingLabel]
+-[HeaderViewCell setTypingLabel:]
+-[HeaderViewCell badgeCount]
+-[HeaderViewCell setBadgeCount:]
+-[HeaderViewCell typingStartTimer]
+-[HeaderViewCell setTypingStartTimer:]
+-[HeaderViewCell typingEndTimer]
+-[HeaderViewCell setTypingEndTimer:]
+-[HeaderViewCell selectedColor]
+-[HeaderViewCell setSelectedColor:]
+-[HeaderViewCell roomCallBack]
+-[HeaderViewCell setRoomCallBack:]
+-[HeaderViewCell .cxx_destruct]
+_OBJC_IVAR_$_HeaderViewCell._room
+___block_descriptor_28_e4_20w_e5_v4?0l
+___block_descriptor_24_e4_20w_e10_v12?04i8l
+_OBJC_IVAR_$_HeaderViewCell._userImageView
+_OBJC_IVAR_$_HeaderViewCell._longTap
+_OBJC_IVAR_$_HeaderViewCell._btnDelete
+_OBJC_IVAR_$_HeaderViewCell._visitorName
+_OBJC_IVAR_$_HeaderViewCell._typingLabel
+_OBJC_IVAR_$_HeaderViewCell._badgeCount
+_OBJC_IVAR_$_HeaderViewCell._typingStartTimer
+_OBJC_IVAR_$_HeaderViewCell._typingEndTimer
+_OBJC_IVAR_$_HeaderViewCell._selectedColor
+_OBJC_IVAR_$_HeaderViewCell._roomCallBack
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/HeaderViewCell.m
+ChatHead/ChatHead/Classes/HeaderViewCell.m
+ChatHead/ChatHead/Classes/HeaderViewCell.h
+__28-[HeaderViewCell stopWobble]_block_invoke
+__29-[HeaderViewCell startWobble]_block_invoke
+__29-[HeaderViewCell reloadData:]_block_invoke
+__30-[HeaderViewCell startTyping:]_block_invoke
+__destroy_helper_block_e4_20w
+__copy_helper_block_e4_20w
+__26-[HeaderViewCell setRoom:]_block_invoke_2
+__26-[HeaderViewCell setRoom:]_block_invoke
++[SKBounceAnimation animationWithKeyPath:]
+-[SKBounceAnimation initWithKeyPath:]
+-[SKBounceAnimation setFromValue:]
+-[SKBounceAnimation fromValue]
+-[SKBounceAnimation setToValue:]
+-[SKBounceAnimation toValue]
+-[SKBounceAnimation setDuration:]
+-[SKBounceAnimation setNumberOfBounces:]
+-[SKBounceAnimation numberOfBounces]
+-[SKBounceAnimation setStiffness:]
+-[SKBounceAnimation stiffness]
+-[SKBounceAnimation setShouldOvershoot:]
+-[SKBounceAnimation shouldOvershoot]
+-[SKBounceAnimation setShake:]
+-[SKBounceAnimation shake]
+-[SKBounceAnimation createValueArray]
+_createPathFromXYValues
+-[SKBounceAnimation createRectArrayFromXValues:yValues:widths:heights:]
+-[SKBounceAnimation createTransformArrayFromM11:M12:M13:M14:M21:M22:M23:M24:M31:M32:M33:M34:M41:M42:M43:M44:]
+-[SKBounceAnimation createColorArrayFromRed:green:blue:alpha:]
+-[SKBounceAnimation valueArrayForStartValue:endValue:]
+-[SKBounceAnimation byValue]
+-[SKBounceAnimation setByValue:]
+-[SKBounceAnimation .cxx_destruct]
+_OBJC_IVAR_$_SKBounceAnimation.byValue
+_OBJC_IVAR_$_SKBounceAnimation.toValue
+_OBJC_IVAR_$_SKBounceAnimation.fromValue
+_OBJC_IVAR_$_SKBounceAnimation.shouldOvershoot
+_OBJC_IVAR_$_SKBounceAnimation.numberOfBounces
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/SKBounceAnimation.m
+ChatHead/ChatHead/Classes/SKBounceAnimation.m
+ChatHead/ChatHead/Classes/SKBounceAnimation.h
+createPathFromXYValues
+-[UIView(DraggableView) makeRound]
+-[UIView(DraggableView) makeRound:]
+-[UIView(DraggableView) shouldAnimateChanges:finished:]
+___55-[UIView(DraggableView) shouldAnimateChanges:finished:]_block_invoke
+___55-[UIView(DraggableView) shouldAnimateChanges:finished:]_block_invoke.21
+___copy_helper_block_e4_20b
+-[UIView(DraggableView) showHeighlightAnimationFromColor:]
+-[UIView(DraggableView) backgroundGlowAnimationFromColor:toColor:clearAnimationsFirst:]
+-[UIView(DraggableView) stopAninamtionWithRedColor:]
+-[UIView(DraggableView) changeAnimationColor:]
+-[UIView(DraggableView) colorValue]
+-[UIView(DraggableView) setColorValue:]
+-[UIView(DraggableView) removeColorValue]
+-[UIView(DraggableView) timerValue]
+-[UIView(DraggableView) setTimerValue:]
+-[UIView(DraggableView) removeTimerValue]
+-[UIView(DraggableView) removeBackgroundAnimation]
+-[UIView(DraggableView) backgroundAnimationExist]
+___block_descriptor_24_e4_20bs_e7_v8?0c4l
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/ChatHead/ChatHead/Classes/UIView+DraggableView.m
+ChatHead/ChatHead/Classes/UIView+DraggableView.m
+__copy_helper_block_e4_20b
+__55-[UIView(DraggableView) shouldAnimateChanges:finished:]_block_invoke.21
+__55-[UIView(DraggableView) shouldAnimateChanges:finished:]_block_invoke
+/Users/zaighammaqsood/Library/Developer/Xcode/DerivedData/WGVisitorDemo_IOS-cfcqyxgvpcwzsdewxycufppxbbwn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ChatHead.build/DerivedSources/ChatHead_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=530 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool

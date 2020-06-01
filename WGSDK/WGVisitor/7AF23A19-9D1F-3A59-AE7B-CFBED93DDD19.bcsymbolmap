@@ -1,0 +1,985 @@
+BCSymbolMap Version: 2.0
+-[CRToastManager(toast) initilizeToast]
+___39-[CRToastManager(toast) initilizeToast]_block_invoke
+___copy_helper_block_e4_20s
+___destroy_helper_block_e4_20s
+-[CRToastManager(toast) reachabilityDidChange:]
+___47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke
+___47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke_2
+___47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke_3
+___47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke_4
+-[CRToastManager(toast) XMPPWaitingLabel]
+___41-[CRToastManager(toast) XMPPWaitingLabel]_block_invoke
+___41-[CRToastManager(toast) XMPPWaitingLabel]_block_invoke_2
+-[CRToastManager(toast) successToast:]
+___38-[CRToastManager(toast) successToast:]_block_invoke
+-[CRToastManager(toast) warningToast:]
+___38-[CRToastManager(toast) warningToast:]_block_invoke
+-[CRToastManager(toast) errorToast:]
+___36-[CRToastManager(toast) errorToast:]_block_invoke
+-[CRToastManager(toast) toastOptions]
+_initilizeToast.onceToken
+___block_descriptor_24_e4_20s_e5_v4?0l
+___block_descriptor_20_e5_v4?0l
+___block_literal_global
+___block_literal_global.27
+___block_literal_global.32
+___block_literal_global.33
+___block_literal_global.39
+___block_literal_global.40
+___block_literal_global.41
+___block_literal_global.44
+___block_literal_global.45
+Apple clang version 11.0.0 (clang-1100.0.33.17)
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/CRToastManager+toast.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorDemo/Swift/Pods
+WGVisitorPods/WGVisitor/WGVisitor/CRToastManager+toast.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod
+__36-[CRToastManager(toast) errorToast:]_block_invoke
+__38-[CRToastManager(toast) warningToast:]_block_invoke
+__38-[CRToastManager(toast) successToast:]_block_invoke
+__41-[CRToastManager(toast) XMPPWaitingLabel]_block_invoke_2
+__41-[CRToastManager(toast) XMPPWaitingLabel]_block_invoke
+__47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke_4
+__47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke_3
+__47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke_2
+__47-[CRToastManager(toast) reachabilityDidChange:]_block_invoke
+__destroy_helper_block_e4_20s
+__copy_helper_block_e4_20s
+__39-[CRToastManager(toast) initilizeToast]_block_invoke
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/usr/include/dispatch/once.h
+-[UIWGCustomButton drawRect:]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/CustomFonts/UIWGCustomButton.m
+WGVisitorPods/WGVisitor/WGVisitor/CustomFonts/UIWGCustomButton.m
+-[UIWGCustomLabel drawRect:]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/CustomFonts/UIWGCustomLabel.m
+WGVisitorPods/WGVisitor/WGVisitor/CustomFonts/UIWGCustomLabel.m
+-[UIWGCustomTextView drawRect:]
+-[UIWGCustomTextView updateFont]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/CustomFonts/UIWGCustomTextView.m
+WGVisitorPods/WGVisitor/WGVisitor/CustomFonts/UIWGCustomTextView.m
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorDemo/Swift/Pods/Target Support Files/WGVisitor/WGVisitor-dummy.m
+-[WGVisitorChatDetailViewController hideReloadChatButton]
+-[WGVisitorChatDetailViewController setCurrentRoom:]
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke.22
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_2
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_3
+___copy_helper_block_e4_20w
+___destroy_helper_block_e4_20w
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke.39
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_2.51
+___52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_3.53
+___copy_helper_block_e4_20s24s28w
+___destroy_helper_block_e4_20s24s28w
+___copy_helper_block_e4_20s24w
+___destroy_helper_block_e4_20s24w
+-[WGVisitorChatDetailViewController addChatHead]
+-[WGVisitorChatDetailViewController messageProcessed]
+___53-[WGVisitorChatDetailViewController messageProcessed]_block_invoke
+-[WGVisitorChatDetailViewController closeRoomAction]
+___52-[WGVisitorChatDetailViewController closeRoomAction]_block_invoke
+-[WGVisitorChatDetailViewController reloadDataAndScollDown]
+___59-[WGVisitorChatDetailViewController reloadDataAndScollDown]_block_invoke
+-[WGVisitorChatDetailViewController showReloadChatButton:]
+-[WGVisitorChatDetailViewController initWithNibName:bundle:]
+-[WGVisitorChatDetailViewController preferredStatusBarStyle]
+-[WGVisitorChatDetailViewController viewDidLoad]
+-[WGVisitorChatDetailViewController setupTitle]
+-[WGVisitorChatDetailViewController orientationChanged:]
+-[WGVisitorChatDetailViewController willAnimateRotationToInterfaceOrientation:duration:]
+___88-[WGVisitorChatDetailViewController willAnimateRotationToInterfaceOrientation:duration:]_block_invoke
+-[WGVisitorChatDetailViewController refreshData:]
+-[WGVisitorChatDetailViewController backHandler]
+-[WGVisitorChatDetailViewController dealloc]
+-[WGVisitorChatDetailViewController resignMessageInputView]
+-[WGVisitorChatDetailViewController disableSendBtn]
+-[WGVisitorChatDetailViewController observeValueForKeyPath:ofObject:change:context:]
+-[WGVisitorChatDetailViewController didReceiveMemoryWarning]
+-[WGVisitorChatDetailViewController positionForBar:]
+-[WGVisitorChatDetailViewController scrollTableViewToBottom]
+-[WGVisitorChatDetailViewController tableView:numberOfRowsInSection:]
+-[WGVisitorChatDetailViewController sendMessage:]
+___49-[WGVisitorChatDetailViewController sendMessage:]_block_invoke
+-[WGVisitorChatDetailViewController didSendText:]
+-[WGVisitorChatDetailViewController uploadFile]
+-[WGVisitorChatDetailViewController refreshWithMessage:]
+___56-[WGVisitorChatDetailViewController refreshWithMessage:]_block_invoke
+___copy_helper_block_e4_20s24s
+___destroy_helper_block_e4_20s24s
+-[WGVisitorChatDetailViewController messageTypeForRowAtIndexPath:]
+-[WGVisitorChatDetailViewController colorForRowAtIndexPath:]
+-[WGVisitorChatDetailViewController shouldPreventScrollToBottomWhileUserScrolling]
+-[WGVisitorChatDetailViewController textForRowAtIndexPath:]
+-[WGVisitorChatDetailViewController timestampForRowAtIndexPath:]
+-[WGVisitorChatDetailViewController subtitleForRowAtIndexPath:]
+-[WGVisitorChatDetailViewController startChat:]
+-[WGVisitorChatDetailViewController textViewShouldBeginEditing:]
+-[WGVisitorChatDetailViewController textViewDidBeginEditing:]
+-[WGVisitorChatDetailViewController textViewDidChange:]
+-[WGVisitorChatDetailViewController textViewDidEndEditing:]
+-[WGVisitorChatDetailViewController sessionClosed]
+-[WGVisitorChatDetailViewController selectFile:]
+___48-[WGVisitorChatDetailViewController selectFile:]_block_invoke
+-[WGVisitorChatDetailViewController documentPickerWasCancelled:]
+-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]
+___75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke
+___75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke_2
+___75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke.324
+___75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke_2.325
+-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]
+___89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+___89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2
+___89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke.340
+___89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2.341
+___89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_3
+___89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_4
+-[WGVisitorChatDetailViewController imagePickerControllerDidCancel:]
+-[WGVisitorChatDetailViewController actionSheet:didDismissWithButtonIndex:]
+-[WGVisitorChatDetailViewController fileSharingActionForIndex:]
+-[WGVisitorChatDetailViewController addTapGesture]
+-[WGVisitorChatDetailViewController tapGestureAction]
+-[WGVisitorChatDetailViewController finishSend]
+-[WGVisitorChatDetailViewController backAction:]
+-[WGVisitorChatDetailViewController closeChatAction:]
+-[WGVisitorChatDetailViewController closeSession:]
+-[WGVisitorChatDetailViewController alertView:clickedButtonAtIndex:]
+-[WGVisitorChatDetailViewController closeSession]
+-[WGVisitorChatDetailViewController proceedSessionClose:]
+-[WGVisitorChatDetailViewController currentRoom]
+-[WGVisitorChatDetailViewController navHeight]
+-[WGVisitorChatDetailViewController setNavHeight:]
+-[WGVisitorChatDetailViewController callback]
+-[WGVisitorChatDetailViewController setCallback:]
+-[WGVisitorChatDetailViewController viaChatHead]
+-[WGVisitorChatDetailViewController setViaChatHead:]
+-[WGVisitorChatDetailViewController automaticCloseBlock]
+-[WGVisitorChatDetailViewController setAutomaticCloseBlock:]
+-[WGVisitorChatDetailViewController visitorRoomCallback]
+-[WGVisitorChatDetailViewController setVisitorRoomCallback:]
+-[WGVisitorChatDetailViewController roomCallBack]
+-[WGVisitorChatDetailViewController setRoomCallBack:]
+-[WGVisitorChatDetailViewController imagePicker]
+-[WGVisitorChatDetailViewController setImagePicker:]
+-[WGVisitorChatDetailViewController docPicker]
+-[WGVisitorChatDetailViewController setDocPicker:]
+-[WGVisitorChatDetailViewController .cxx_destruct]
+_XMPPMUCNamespace
+_XMPPMUCUserNamespace
+_XMPPMUCAdminNamespace
+_XMPPMUCOwnerNamespace
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._currentRoom
+___block_descriptor_28_e4_20w_e5_v4?0l
+_OBJC_IVAR_$_WGVisitorChatDetailViewController.shouldIgnore
+___block_literal_global.52
+___block_descriptor_36_e4_20s24s28w_e5_v4?0l
+___block_descriptor_28_e4_20s24w_e10_v12?04i8l
+___block_descriptor_28_e4_20s24s_e5_v4?0l
+___block_descriptor_20_e22_v8?0"UIAlertAction"4l
+___block_literal_global.265
+___block_descriptor_28_e4_20s24w_e17_v8?0"NSString"4l
+___block_descriptor_24_e4_20s_e17_v8?0"NSString"4l
+___block_descriptor_28_e4_20s24w_e5_v4?0l
+_OBJC_IVAR_$_WGVisitorChatDetailViewController.navHeight
+_OBJC_IVAR_$_WGVisitorChatDetailViewController.callback
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._viaChatHead
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._automaticCloseBlock
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._visitorRoomCallback
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._roomCallBack
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._imagePicker
+_OBJC_IVAR_$_WGVisitorChatDetailViewController._docPicker
+_OBJC_IVAR_$_WGVisitorChatDetailViewController.orignalFrame
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorChatDetailViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorChatDetailViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorChatDetailViewController.h
+__89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_4
+__89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_3
+__89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2.341
+__89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke.340
+__89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke_2
+__89-[WGVisitorChatDetailViewController imagePickerController:didFinishPickingMediaWithInfo:]_block_invoke
+__75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke_2.325
+__75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke.324
+__75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke_2
+__75-[WGVisitorChatDetailViewController documentPicker:didPickDocumentsAtURLs:]_block_invoke
+__48-[WGVisitorChatDetailViewController selectFile:]_block_invoke
+__destroy_helper_block_e4_20s24s
+__copy_helper_block_e4_20s24s
+__56-[WGVisitorChatDetailViewController refreshWithMessage:]_block_invoke
+__49-[WGVisitorChatDetailViewController sendMessage:]_block_invoke
+__88-[WGVisitorChatDetailViewController willAnimateRotationToInterfaceOrientation:duration:]_block_invoke
+__59-[WGVisitorChatDetailViewController reloadDataAndScollDown]_block_invoke
+__52-[WGVisitorChatDetailViewController closeRoomAction]_block_invoke
+__53-[WGVisitorChatDetailViewController messageProcessed]_block_invoke
+__destroy_helper_block_e4_20s24w
+__copy_helper_block_e4_20s24w
+__destroy_helper_block_e4_20s24s28w
+__copy_helper_block_e4_20s24s28w
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_3.53
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_2.51
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke.39
+__destroy_helper_block_e4_20w
+__copy_helper_block_e4_20w
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_3
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke_2
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke.22
+__52-[WGVisitorChatDetailViewController setCurrentRoom:]_block_invoke
+-[WGVisitorChatDraggingCoordinator initWithWindow:]
+-[WGVisitorChatDraggingCoordinator hideCollectionView]
+-[WGVisitorChatDraggingCoordinator headerView]
+-[WGVisitorChatDraggingCoordinator reloadHeaderView:]
+-[WGVisitorChatDraggingCoordinator closeHeaderView:]
+-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]
+___75-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke
+___75-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke.114
+___75-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke_2
+-[WGVisitorChatDraggingCoordinator SwipeViewRight]
+-[WGVisitorChatDraggingCoordinator SwipeViewLeft]
+-[WGVisitorChatDraggingCoordinator draggableViewTouched:]
+-[WGVisitorChatDraggingCoordinator _animateViewToEdges:]
+_CGRectMake
+_CGPointMake
+-[WGVisitorChatDraggingCoordinator hideHeadView]
+-[WGVisitorChatDraggingCoordinator showHeadView]
+-[WGVisitorChatDraggingCoordinator dealloc]
+-[WGVisitorChatDraggingCoordinator window]
+-[WGVisitorChatDraggingCoordinator setWindow:]
+-[WGVisitorChatDraggingCoordinator .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorChatDraggingCoordinator.hView
+___block_descriptor_24_e4_20w_e7_v8?04l
+_OBJC_IVAR_$_WGVisitorChatDraggingCoordinator._window
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorChatDraggingCoordinator.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorChatDraggingCoordinator.m
+CGPointMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+CGRectMake
+__75-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke_2
+__75-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke.114
+__75-[WGVisitorChatDraggingCoordinator _presentViewControllerForDraggableView:]_block_invoke
+-[WGVisitorContactViewController initWithNibName:bundle:]
+-[WGVisitorContactViewController init]
+-[WGVisitorContactViewController initWithBlock:]
+-[WGVisitorContactViewController viewDidLoad]
+-[WGVisitorContactViewController didReceiveMemoryWarning]
+-[WGVisitorContactViewController validateEmail:]
+-[WGVisitorContactViewController getJsonDictionary]
+-[WGVisitorContactViewController showAlert:]
+-[WGVisitorContactViewController validatePhoneNumber:]
+-[WGVisitorContactViewController isDataValid:]
+-[WGVisitorContactViewController sendContactDetails:]
+___53-[WGVisitorContactViewController sendContactDetails:]_block_invoke
+_extracted
+-[WGVisitorContactViewController textFieldShouldReturn:]
+-[WGVisitorContactViewController textField:shouldChangeCharactersInRange:replacementString:]
+-[WGVisitorContactViewController textFieldDidEndEditing:]
+-[WGVisitorContactViewController dealloc]
+-[WGVisitorContactViewController loadNaturalTexts]
+-[WGVisitorContactViewController setupUI]
+-[WGVisitorContactViewController textViewDidBeginEditing:]
+-[WGVisitorContactViewController textViewDidEndEditing:]
+-[WGVisitorContactViewController callBack]
+-[WGVisitorContactViewController setCallBack:]
+-[WGVisitorContactViewController headerLabel]
+-[WGVisitorContactViewController setHeaderLabel:]
+-[WGVisitorContactViewController phoneTextField]
+-[WGVisitorContactViewController setPhoneTextField:]
+-[WGVisitorContactViewController nameTextField]
+-[WGVisitorContactViewController setNameTextField:]
+-[WGVisitorContactViewController emailTextField]
+-[WGVisitorContactViewController setEmailTextField:]
+-[WGVisitorContactViewController commentsTextView]
+-[WGVisitorContactViewController setCommentsTextView:]
+-[WGVisitorContactViewController sendButton]
+-[WGVisitorContactViewController setSendButton:]
+-[WGVisitorContactViewController .cxx_destruct]
+___extracted_block_invoke
+___extracted_block_invoke_2
+___extracted_block_invoke_3
+_OBJC_IVAR_$_WGVisitorContactViewController.shouldCallAPI
+_OBJC_IVAR_$_WGVisitorContactViewController.sharedData
+_OBJC_IVAR_$_WGVisitorContactViewController.jsonDict
+_OBJC_IVAR_$_WGVisitorContactViewController.callBack
+_OBJC_IVAR_$_WGVisitorContactViewController._headerLabel
+_OBJC_IVAR_$_WGVisitorContactViewController._phoneTextField
+_OBJC_IVAR_$_WGVisitorContactViewController._nameTextField
+_OBJC_IVAR_$_WGVisitorContactViewController._emailTextField
+_OBJC_IVAR_$_WGVisitorContactViewController._commentsTextView
+_OBJC_IVAR_$_WGVisitorContactViewController._sendButton
+_OBJC_IVAR_$_WGVisitorContactViewController.shouldClearData
+___block_descriptor_25_e4_20s_e5_v4?0l
+___block_descriptor_24_e4_20s_e10_v12?0c4i8l
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorContactViewController.m
+__extracted_block_invoke_3
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorContactViewController.m
+__extracted_block_invoke_2
+__extracted_block_invoke
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorContactViewController.h
+extracted
+__53-[WGVisitorContactViewController sendContactDetails:]_block_invoke
+NSMakeRange
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSRange.h
+-[WGVisitorMessageViewCell awakeFromNib]
+-[WGVisitorMessageViewCell setSelected:animated:]
+-[WGVisitorMessageViewCell reloadData:]
+-[WGVisitorMessageViewCell containerView]
+-[WGVisitorMessageViewCell setContainerView:]
+-[WGVisitorMessageViewCell messageStatusView]
+-[WGVisitorMessageViewCell setMessageStatusView:]
+-[WGVisitorMessageViewCell lbUser]
+-[WGVisitorMessageViewCell setLbUser:]
+-[WGVisitorMessageViewCell lbTime]
+-[WGVisitorMessageViewCell setLbTime:]
+-[WGVisitorMessageViewCell lbMessage]
+-[WGVisitorMessageViewCell setLbMessage:]
+-[WGVisitorMessageViewCell avatarImageView]
+-[WGVisitorMessageViewCell setAvatarImageView:]
+-[WGVisitorMessageViewCell webMessage]
+-[WGVisitorMessageViewCell setWebMessage:]
+-[WGVisitorMessageViewCell parentView]
+-[WGVisitorMessageViewCell setParentView:]
+-[WGVisitorMessageViewCell avatarWidthConstraint]
+-[WGVisitorMessageViewCell setAvatarWidthConstraint:]
+-[WGVisitorMessageViewCell .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorMessageViewCell._lbMessage
+_OBJC_IVAR_$_WGVisitorMessageViewCell._containerView
+_OBJC_IVAR_$_WGVisitorMessageViewCell._messageStatusView
+_OBJC_IVAR_$_WGVisitorMessageViewCell._lbUser
+_OBJC_IVAR_$_WGVisitorMessageViewCell._lbTime
+_OBJC_IVAR_$_WGVisitorMessageViewCell._avatarImageView
+_OBJC_IVAR_$_WGVisitorMessageViewCell._webMessage
+_OBJC_IVAR_$_WGVisitorMessageViewCell._parentView
+_OBJC_IVAR_$_WGVisitorMessageViewCell._avatarWidthConstraint
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGMessageViewController/Cell/WGVisitorMessageViewCell.m
+WGVisitorPods/WGVisitor/WGVisitor/WGMessageViewController/Cell/WGVisitorMessageViewCell.m
+WGVisitorPods/WGVisitor/WGVisitor/WGMessageViewController/Cell/WGVisitorMessageViewCell.h
++[WGVisitorMessageViewController getMessageViewController:]
+-[WGVisitorMessageViewController initWithNibName:bundle:]
+-[WGVisitorMessageViewController init]
+-[WGVisitorMessageViewController initWithCoder:]
+-[WGVisitorMessageViewController viewDidLoad]
+-[WGVisitorMessageViewController imageForName:]
+-[WGVisitorMessageViewController setCurrentRoom:]
+-[WGVisitorMessageViewController addMessageViewController:]
+-[WGVisitorMessageViewController addKeyboardListener]
+-[WGVisitorMessageViewController addBorders]
+-[WGVisitorMessageViewController initlializeTableView]
+-[WGVisitorMessageViewController removeExtraLines]
+-[WGVisitorMessageViewController didReceiveMemoryWarning]
+-[WGVisitorMessageViewController tableView:cellForRowAtIndexPath:]
+-[WGVisitorMessageViewController tableView:shouldShowMenuForRowAtIndexPath:]
+-[WGVisitorMessageViewController tableView:canPerformAction:forRowAtIndexPath:withSender:]
+-[WGVisitorMessageViewController tableView:performAction:forRowAtIndexPath:withSender:]
+-[WGVisitorMessageViewController textViewDidChangeSelection:]
+-[WGVisitorMessageViewController textView:shouldChangeTextInRange:replacementText:]
+-[WGVisitorMessageViewController setTextViewConstraints:]
+_CGSizeMake
+-[WGVisitorMessageViewController scrollToBottomAnimated:]
+-[WGVisitorMessageViewController keyboardWillShow:]
+-[WGVisitorMessageViewController keyboardWillHide:]
+-[WGVisitorMessageViewController searchBar:textDidChange:]
+-[WGVisitorMessageViewController hideShowSearchNextPreButton:]
+-[WGVisitorMessageViewController showSearchCellWithIndex]
+___57-[WGVisitorMessageViewController showSearchCellWithIndex]_block_invoke
+-[WGVisitorMessageViewController highlightTextinIndexPath:]
+-[WGVisitorMessageViewController showSearchedMessageWithIndex:]
+___63-[WGVisitorMessageViewController showSearchedMessageWithIndex:]_block_invoke
+-[WGVisitorMessageViewController convertTextViewTextInNormalText]
+-[WGVisitorMessageViewController searchNextButtonAction:]
+-[WGVisitorMessageViewController searchPreButtonAction:]
+-[WGVisitorMessageViewController searchBarCancelButtonClicked:]
+-[WGVisitorMessageViewController textViewDidChange:]
+-[WGVisitorMessageViewController textViewDidBeginEditing:]
+-[WGVisitorMessageViewController textViewDidEndEditing:]
+-[WGVisitorMessageViewController scrollToMessage:]
+___50-[WGVisitorMessageViewController scrollToMessage:]_block_invoke
+-[WGVisitorMessageViewController doneButtonClicked:]
+-[WGVisitorMessageViewController setupScrollButton]
+-[WGVisitorMessageViewController scrollButtonPressed:]
+-[WGVisitorMessageViewController scrollViewDidScroll:]
+-[WGVisitorMessageViewController updateUnreadMessagesCount]
+___59-[WGVisitorMessageViewController updateUnreadMessagesCount]_block_invoke
+-[WGVisitorMessageViewController updateUnreadMessagesCount:]
+___60-[WGVisitorMessageViewController updateUnreadMessagesCount:]_block_invoke
+-[WGVisitorMessageViewController sendMessage:]
+-[WGVisitorMessageViewController sendMessageAction:]
+-[WGVisitorMessageViewController hideLockButton:]
+-[WGVisitorMessageViewController avatarImageViewForRowAtIndexPath:]
+-[WGVisitorMessageViewController messageInputView]
+-[WGVisitorMessageViewController dealloc]
+-[WGVisitorMessageViewController closeChatAction:]
+-[WGVisitorMessageViewController backAction:]
+-[WGVisitorMessageViewController addRTLSupport]
+-[WGVisitorMessageViewController uploadFile]
+-[WGVisitorMessageViewController uploadFileAction:]
+-[WGVisitorMessageViewController setupChatUI]
+-[WGVisitorMessageViewController currentRoom]
+-[WGVisitorMessageViewController selectedString]
+-[WGVisitorMessageViewController setSelectedString:]
+-[WGVisitorMessageViewController selectedText]
+-[WGVisitorMessageViewController setSelectedText:]
+-[WGVisitorMessageViewController searchedArray]
+-[WGVisitorMessageViewController setSearchedArray:]
+-[WGVisitorMessageViewController currentShowedIndex]
+-[WGVisitorMessageViewController setCurrentShowedIndex:]
+-[WGVisitorMessageViewController delegate]
+-[WGVisitorMessageViewController setDelegate:]
+-[WGVisitorMessageViewController verticalStackView]
+-[WGVisitorMessageViewController setVerticalStackView:]
+-[WGVisitorMessageViewController horizontalStackView]
+-[WGVisitorMessageViewController setHorizontalStackView:]
+-[WGVisitorMessageViewController textView]
+-[WGVisitorMessageViewController setTextView:]
+-[WGVisitorMessageViewController tableView]
+-[WGVisitorMessageViewController setTableView:]
+-[WGVisitorMessageViewController lbMessageType]
+-[WGVisitorMessageViewController setLbMessageType:]
+-[WGVisitorMessageViewController searchBar]
+-[WGVisitorMessageViewController setSearchBar:]
+-[WGVisitorMessageViewController statusbarHeightConstraint]
+-[WGVisitorMessageViewController setStatusbarHeightConstraint:]
+-[WGVisitorMessageViewController searchHeightConstraint]
+-[WGVisitorMessageViewController setSearchHeightConstraint:]
+-[WGVisitorMessageViewController lockUnockConstraint]
+-[WGVisitorMessageViewController setLockUnockConstraint:]
+-[WGVisitorMessageViewController searchBarBackgroundView]
+-[WGVisitorMessageViewController setSearchBarBackgroundView:]
+-[WGVisitorMessageViewController containerView]
+-[WGVisitorMessageViewController setContainerView:]
+-[WGVisitorMessageViewController isInGrid]
+-[WGVisitorMessageViewController setIsInGrid:]
+-[WGVisitorMessageViewController sendButton]
+-[WGVisitorMessageViewController setSendButton:]
+-[WGVisitorMessageViewController btnCannedMessage]
+-[WGVisitorMessageViewController setBtnCannedMessage:]
+-[WGVisitorMessageViewController btnLock]
+-[WGVisitorMessageViewController setBtnLock:]
+-[WGVisitorMessageViewController uploadFileBtn]
+-[WGVisitorMessageViewController setUploadFileBtn:]
+-[WGVisitorMessageViewController headerLogoImage]
+-[WGVisitorMessageViewController setHeaderLogoImage:]
+-[WGVisitorMessageViewController headerTitleLabel]
+-[WGVisitorMessageViewController setHeaderTitleLabel:]
+-[WGVisitorMessageViewController headerDetailLabel]
+-[WGVisitorMessageViewController setHeaderDetailLabel:]
+-[WGVisitorMessageViewController closeChatButton]
+-[WGVisitorMessageViewController setCloseChatButton:]
+-[WGVisitorMessageViewController headerView]
+-[WGVisitorMessageViewController setHeaderView:]
+-[WGVisitorMessageViewController backButton]
+-[WGVisitorMessageViewController setBackButton:]
+-[WGVisitorMessageViewController searchNextButton]
+-[WGVisitorMessageViewController setSearchNextButton:]
+-[WGVisitorMessageViewController searchPreButton]
+-[WGVisitorMessageViewController setSearchPreButton:]
+-[WGVisitorMessageViewController doneButtonCallback]
+-[WGVisitorMessageViewController setDoneButtonCallback:]
+-[WGVisitorMessageViewController bottomConstraint]
+-[WGVisitorMessageViewController setBottomConstraint:]
+-[WGVisitorMessageViewController scrollButton]
+-[WGVisitorMessageViewController setScrollButton:]
+-[WGVisitorMessageViewController unreadMessagesCountLabel]
+-[WGVisitorMessageViewController setUnreadMessagesCountLabel:]
+-[WGVisitorMessageViewController .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorMessageViewController._currentRoom
+_OBJC_IVAR_$_WGVisitorMessageViewController.searchedArray
+_OBJC_IVAR_$_WGVisitorMessageViewController._currentShowedIndex
+_OBJC_IVAR_$_WGVisitorMessageViewController._selectedText
+_OBJC_IVAR_$_WGVisitorMessageViewController.indexPathPrevious
+___block_descriptor_28_e4_20s_e5_v4?0l
+___block_descriptor_24_e4_20w_e5_v4?0l
+_OBJC_IVAR_$_WGVisitorMessageViewController._selectedString
+_OBJC_IVAR_$_WGVisitorMessageViewController._searchedArray
+_OBJC_IVAR_$_WGVisitorMessageViewController._delegate
+_OBJC_IVAR_$_WGVisitorMessageViewController._verticalStackView
+_OBJC_IVAR_$_WGVisitorMessageViewController._horizontalStackView
+_OBJC_IVAR_$_WGVisitorMessageViewController._textView
+_OBJC_IVAR_$_WGVisitorMessageViewController._tableView
+_OBJC_IVAR_$_WGVisitorMessageViewController._lbMessageType
+_OBJC_IVAR_$_WGVisitorMessageViewController._searchBar
+_OBJC_IVAR_$_WGVisitorMessageViewController._statusbarHeightConstraint
+_OBJC_IVAR_$_WGVisitorMessageViewController._searchHeightConstraint
+_OBJC_IVAR_$_WGVisitorMessageViewController._lockUnockConstraint
+_OBJC_IVAR_$_WGVisitorMessageViewController._searchBarBackgroundView
+_OBJC_IVAR_$_WGVisitorMessageViewController._containerView
+_OBJC_IVAR_$_WGVisitorMessageViewController._isInGrid
+_OBJC_IVAR_$_WGVisitorMessageViewController._sendButton
+_OBJC_IVAR_$_WGVisitorMessageViewController._btnCannedMessage
+_OBJC_IVAR_$_WGVisitorMessageViewController._btnLock
+_OBJC_IVAR_$_WGVisitorMessageViewController._uploadFileBtn
+_OBJC_IVAR_$_WGVisitorMessageViewController._headerLogoImage
+_OBJC_IVAR_$_WGVisitorMessageViewController._headerTitleLabel
+_OBJC_IVAR_$_WGVisitorMessageViewController._headerDetailLabel
+_OBJC_IVAR_$_WGVisitorMessageViewController._closeChatButton
+_OBJC_IVAR_$_WGVisitorMessageViewController._headerView
+_OBJC_IVAR_$_WGVisitorMessageViewController._backButton
+_OBJC_IVAR_$_WGVisitorMessageViewController._searchNextButton
+_OBJC_IVAR_$_WGVisitorMessageViewController._searchPreButton
+_OBJC_IVAR_$_WGVisitorMessageViewController._doneButtonCallback
+_OBJC_IVAR_$_WGVisitorMessageViewController._bottomConstraint
+_OBJC_IVAR_$_WGVisitorMessageViewController._scrollButton
+_OBJC_IVAR_$_WGVisitorMessageViewController._unreadMessagesCountLabel
+_OBJC_IVAR_$_WGVisitorMessageViewController.unreadMessagesCountUpdateObserver
+_OBJC_IVAR_$_WGVisitorMessageViewController.selectedText
+__OBJC_PROTOCOL_$_NSObject
+__OBJC_LABEL_PROTOCOL_$_NSObject
+__OBJC_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+__OBJC_PROTOCOL_$_UITextViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITextViewDelegate
+__OBJC_PROTOCOL_$_UIBarPositioningDelegate
+__OBJC_LABEL_PROTOCOL_$_UIBarPositioningDelegate
+__OBJC_PROTOCOL_$_UISearchBarDelegate
+__OBJC_LABEL_PROTOCOL_$_UISearchBarDelegate
+__OBJC_PROTOCOL_$_UITableViewDelegate
+__OBJC_LABEL_PROTOCOL_$_UITableViewDelegate
+__OBJC_PROTOCOL_$_UITableViewDataSource
+__OBJC_LABEL_PROTOCOL_$_UITableViewDataSource
+__OBJC_PROTOCOL_$_UIViewControllerRestoration
+__OBJC_LABEL_PROTOCOL_$_UIViewControllerRestoration
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGMessageViewController/WGVisitorMessageViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGMessageViewController/WGVisitorMessageViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGMessageViewController/WGVisitorMessageViewController.h
+__60-[WGVisitorMessageViewController updateUnreadMessagesCount:]_block_invoke
+__59-[WGVisitorMessageViewController updateUnreadMessagesCount]_block_invoke
+__50-[WGVisitorMessageViewController scrollToMessage:]_block_invoke
+__63-[WGVisitorMessageViewController showSearchedMessageWithIndex:]_block_invoke
+__57-[WGVisitorMessageViewController showSearchCellWithIndex]_block_invoke
+CGSizeMake
++[WGVisitorSharedData getSharedInstance]
+-[WGVisitorSharedData showActivityIndicator:]
+___45-[WGVisitorSharedData showActivityIndicator:]_block_invoke
+-[WGVisitorSharedData hideActivityIndicator]
+-[WGVisitorSharedData allRooms]
+___31-[WGVisitorSharedData allRooms]_block_invoke
+-[WGVisitorSharedData getOperatorBadgeCount]
+-[WGVisitorSharedData draggingCoordinator:viewControllerForDraggableView:]
+-[WGVisitorSharedData draggingCoordinatorViewControllerGotHide:]
+-[WGVisitorSharedData showChatHeadIfNeeded]
+___43-[WGVisitorSharedData showChatHeadIfNeeded]_block_invoke
+-[WGVisitorSharedData registerPushNotification]
+-[WGVisitorSharedData unregisterPushNotification]
+-[WGVisitorSharedData customFont]
+-[WGVisitorSharedData websiteDomainName]
+-[WGVisitorSharedData privacyPolicyLink]
+-[WGVisitorSharedData applicationName]
+-[WGVisitorSharedData isRTL]
+-[WGVisitorSharedData agentTextColor]
+-[WGVisitorSharedData agentBackgroundColor]
+-[WGVisitorSharedData agentLinkTextColor]
+-[WGVisitorSharedData visitorAvatar]
+-[WGVisitorSharedData visitorTextColor]
+-[WGVisitorSharedData visitorBackgroundColor]
+-[WGVisitorSharedData visitorLinkTextColor]
+-[WGVisitorSharedData chatHeadColour]
+-[WGVisitorSharedData themeColor]
+-[WGVisitorSharedData agentAvatar]
+-[WGVisitorSharedData navigationLogoImage]
+-[WGVisitorSharedData termsTextColor]
+-[WGVisitorSharedData termsBackgroundColor]
+-[WGVisitorSharedData buttonBackgroundColor]
+-[WGVisitorSharedData buttonTextColor]
+-[WGVisitorSharedData isLoggedIn]
+-[WGVisitorSharedData setIsLoggedIn:]
+-[WGVisitorSharedData spinner]
+-[WGVisitorSharedData setSpinner:]
+-[WGVisitorSharedData selectedLanguage]
+-[WGVisitorSharedData setSelectedLanguage:]
+-[WGVisitorSharedData resourcesBundle]
+-[WGVisitorSharedData setResourcesBundle:]
+-[WGVisitorSharedData shouldShowChatHead]
+-[WGVisitorSharedData setShouldShowChatHead:]
+-[WGVisitorSharedData shouldShowTimeStamp]
+-[WGVisitorSharedData setShouldShowTimeStamp:]
+-[WGVisitorSharedData chatConfigurations]
+-[WGVisitorSharedData setChatConfigurations:]
+-[WGVisitorSharedData themeConfigurations]
+-[WGVisitorSharedData setThemeConfigurations:]
+-[WGVisitorSharedData websiteDomainNameArabic]
+-[WGVisitorSharedData setWebsiteDomainNameArabic:]
+-[WGVisitorSharedData websiteDomainNameEnglish]
+-[WGVisitorSharedData setWebsiteDomainNameEnglish:]
+-[WGVisitorSharedData .cxx_destruct]
+_sharedInstance
+___block_descriptor_24_e4_20s_e39_v16?0"NSString"4"WGVisitorRoom"8^c12l
+_OBJC_IVAR_$_WGVisitorSharedData.chatDetailViewController
+_OBJC_IVAR_$_WGVisitorSharedData.isLoggedIn
+_OBJC_IVAR_$_WGVisitorSharedData._shouldShowChatHead
+_OBJC_IVAR_$_WGVisitorSharedData._shouldShowTimeStamp
+_OBJC_IVAR_$_WGVisitorSharedData._spinner
+_OBJC_IVAR_$_WGVisitorSharedData._selectedLanguage
+_OBJC_IVAR_$_WGVisitorSharedData._resourcesBundle
+_OBJC_IVAR_$_WGVisitorSharedData._chatConfigurations
+_OBJC_IVAR_$_WGVisitorSharedData._themeConfigurations
+_OBJC_IVAR_$_WGVisitorSharedData._websiteDomainNameArabic
+_OBJC_IVAR_$_WGVisitorSharedData._websiteDomainNameEnglish
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorSharedData.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorSharedData.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorSharedData.h
+__43-[WGVisitorSharedData showChatHeadIfNeeded]_block_invoke
+__31-[WGVisitorSharedData allRooms]_block_invoke
+__45-[WGVisitorSharedData showActivityIndicator:]_block_invoke
++[WGVisitorSoundPlayer playSoundWithName:type:]
++[WGVisitorSoundPlayer playMessageReceivedSound]
++[WGVisitorSoundPlayer playMessageSentSound]
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorSoundPlayer.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorSoundPlayer.m
+-[WGVisitorTermsViewController viewDidLoad]
+-[WGVisitorTermsViewController agreeAction:]
+-[WGVisitorTermsViewController disagreeAction:]
+-[WGVisitorTermsViewController buildAgreeTextViewFromString:]
+-[WGVisitorTermsViewController textView:shouldInteractWithURL:inRange:]
+-[WGVisitorTermsViewController callBack]
+-[WGVisitorTermsViewController setCallBack:]
+-[WGVisitorTermsViewController subjectLabel]
+-[WGVisitorTermsViewController setSubjectLabel:]
+-[WGVisitorTermsViewController detailHeaderView]
+-[WGVisitorTermsViewController setDetailHeaderView:]
+-[WGVisitorTermsViewController detailTextView]
+-[WGVisitorTermsViewController setDetailTextView:]
+-[WGVisitorTermsViewController liveChatTextView]
+-[WGVisitorTermsViewController setLiveChatTextView:]
+-[WGVisitorTermsViewController agreeButton]
+-[WGVisitorTermsViewController setAgreeButton:]
+-[WGVisitorTermsViewController disagreeButton]
+-[WGVisitorTermsViewController setDisagreeButton:]
+-[WGVisitorTermsViewController .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorTermsViewController._agreeButton
+_OBJC_IVAR_$_WGVisitorTermsViewController._disagreeButton
+_OBJC_IVAR_$_WGVisitorTermsViewController._subjectLabel
+_OBJC_IVAR_$_WGVisitorTermsViewController._callBack
+_OBJC_IVAR_$_WGVisitorTermsViewController._detailHeaderView
+_OBJC_IVAR_$_WGVisitorTermsViewController._detailTextView
+_OBJC_IVAR_$_WGVisitorTermsViewController._liveChatTextView
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorTermsViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorTermsViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorTermsViewController.h
+-[WGVisitorViewController initWithNibName:bundle:]
+-[WGVisitorViewController loadView]
+-[WGVisitorViewController viewWillAppear:]
+-[WGVisitorViewController reloadChatView]
+-[WGVisitorViewController viewDidLoad]
+-[WGVisitorViewController viewDidDisappear:]
+-[WGVisitorViewController visitorPanel]
+-[WGVisitorViewController startChat:]
+___37-[WGVisitorViewController startChat:]_block_invoke
+___37-[WGVisitorViewController startChat:]_block_invoke_2
+___copy_helper_block_e4_20s24s28s
+___destroy_helper_block_e4_20s24s28s
+___37-[WGVisitorViewController startChat:]_block_invoke.131
+___37-[WGVisitorViewController startChat:]_block_invoke.149
+___37-[WGVisitorViewController startChat:]_block_invoke_2.171
+-[WGVisitorViewController viewWillDisappear:]
+-[WGVisitorViewController addChatHead]
+-[WGVisitorViewController addDragView]
+-[WGVisitorViewController showReloadChatButton:]
+___48-[WGVisitorViewController showReloadChatButton:]_block_invoke
+-[WGVisitorViewController hideReloadChatButton]
+-[WGVisitorViewController loadChatView]
+___39-[WGVisitorViewController loadChatView]_block_invoke
+___39-[WGVisitorViewController loadChatView]_block_invoke_2
+___39-[WGVisitorViewController loadChatView]_block_invoke_3
+___39-[WGVisitorViewController loadChatView]_block_invoke.290
+___39-[WGVisitorViewController loadChatView]_block_invoke.294
+-[WGVisitorViewController isRoomDestroyed]
+-[WGVisitorViewController addContactUsView]
+___43-[WGVisitorViewController addContactUsView]_block_invoke
+___43-[WGVisitorViewController addContactUsView]_block_invoke_2
+-[WGVisitorViewController addTerms]
+___35-[WGVisitorViewController addTerms]_block_invoke
+___35-[WGVisitorViewController addTerms]_block_invoke_2
+___35-[WGVisitorViewController addTerms]_block_invoke_3
+-[WGVisitorViewController addTargetSessionClosedForButton:closed:]
+-[WGVisitorViewController addTargetSessionClosedForBarButton:closed:]
+-[WGVisitorViewController closeChatAction:]
+-[WGVisitorViewController closeSession:]
+-[WGVisitorViewController alertView:clickedButtonAtIndex:]
+-[WGVisitorViewController closeSession]
+-[WGVisitorViewController proceedSessionClose:]
++[WGVisitorViewController setPreferredLanguage:]
++[WGVisitorViewController shouldShowChatHead:]
++[WGVisitorViewController shouldShowTimeStamp:]
++[WGVisitorViewController setChatConfigurations:]
++[WGVisitorViewController setThemeConfigurations:]
++[WGVisitorViewController setVisitorName:phoneNumber:email:]
+-[WGVisitorViewController didReceiveMemoryWarning]
+-[WGVisitorViewController willAnimateRotationToInterfaceOrientation:duration:]
+-[WGVisitorViewController dealloc]
+-[WGVisitorViewController addLogo]
+-[WGVisitorViewController removeLogo]
+___37-[WGVisitorViewController removeLogo]_block_invoke
+-[WGVisitorViewController centeredNavBarImage:]
+-[WGVisitorViewController setTitle:]
+-[WGVisitorViewController block]
+-[WGVisitorViewController setBlock:]
+-[WGVisitorViewController logoContainerView]
+-[WGVisitorViewController setLogoContainerView:]
+-[WGVisitorViewController barButtonType]
+-[WGVisitorViewController setBarButtonType:]
+-[WGVisitorViewController chatButton]
+-[WGVisitorViewController setChatButton:]
+-[WGVisitorViewController closeButton]
+-[WGVisitorViewController setCloseButton:]
+-[WGVisitorViewController closeBarButton]
+-[WGVisitorViewController setCloseBarButton:]
+-[WGVisitorViewController isHTTPSession]
+-[WGVisitorViewController setIsHTTPSession:]
+-[WGVisitorViewController .cxx_destruct]
+_OBJC_IVAR_$_WGVisitorViewController.contactUsViewController
+_OBJC_IVAR_$_WGVisitorViewController.shouldReloadChatView
+_OBJC_IVAR_$_WGVisitorViewController.sharedData
+___block_descriptor_32_e4_20s24s28s_e10_v12?04i8l
+___block_descriptor_28_e4_20s24s_e22_v16?0"NSError"48c12l
+___block_descriptor_24_e4_20w_e7_v8?0i4l
+___block_descriptor_32_e4_20s24s28s_e5_v4?0l
+___block_descriptor_28_e4_20s24s_e33_v12?0"NSError"4"NSDictionary"8l
+___block_descriptor_24_e4_20s_e7_v8?0i4l
+_OBJC_IVAR_$_WGVisitorViewController.termsViewController
+___block_descriptor_32_e4_20s24w_e5_v4?0l
+___block_descriptor_28_e4_20s24w_e7_v8?0i4l
+_OBJC_IVAR_$_WGVisitorViewController.block
+_OBJC_IVAR_$_WGVisitorViewController.logoContainerView
+_OBJC_IVAR_$_WGVisitorViewController._barButtonType
+_OBJC_IVAR_$_WGVisitorViewController._chatButton
+_OBJC_IVAR_$_WGVisitorViewController._closeButton
+_OBJC_IVAR_$_WGVisitorViewController._closeBarButton
+_OBJC_IVAR_$_WGVisitorViewController._isHTTPSession
+_OBJC_IVAR_$_WGVisitorViewController.customerNavigationTitleLabel
+/Users/zaighammaqsood/Documents/Projects/MT/IOS/WGVisitorCocoaPod/WGVisitorPods/WGVisitor/WGVisitor/WGVisitorViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorViewController.m
+WGVisitorPods/WGVisitor/WGVisitor/WGVisitorViewController.h
+__37-[WGVisitorViewController removeLogo]_block_invoke
+__35-[WGVisitorViewController addTerms]_block_invoke_3
+__35-[WGVisitorViewController addTerms]_block_invoke_2
+__35-[WGVisitorViewController addTerms]_block_invoke
+__43-[WGVisitorViewController addContactUsView]_block_invoke_2
+__43-[WGVisitorViewController addContactUsView]_block_invoke
+__39-[WGVisitorViewController loadChatView]_block_invoke.294
+__39-[WGVisitorViewController loadChatView]_block_invoke.290
+__39-[WGVisitorViewController loadChatView]_block_invoke_3
+__39-[WGVisitorViewController loadChatView]_block_invoke_2
+__39-[WGVisitorViewController loadChatView]_block_invoke
+__48-[WGVisitorViewController showReloadChatButton:]_block_invoke
+__37-[WGVisitorViewController startChat:]_block_invoke_2.171
+__37-[WGVisitorViewController startChat:]_block_invoke.149
+__37-[WGVisitorViewController startChat:]_block_invoke.131
+__destroy_helper_block_e4_20s24s28s
+__copy_helper_block_e4_20s24s28s
+__37-[WGVisitorViewController startChat:]_block_invoke_2
+__37-[WGVisitorViewController startChat:]_block_invoke
+/Users/zaighammaqsood/Library/Developer/Xcode/DerivedData/WGVisitorDemo_IOS-cfcqyxgvpcwzsdewxycufppxbbwn/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/WGVisitor.build/DerivedSources/WGVisitor_vers.c
+__ZL15__ARCLite__loadv
+__ZL30add_image_hook_autoreleasepoolPK11mach_headerl
+__ZL34__arclite_objc_autoreleasePoolPushv
+__ZL33__arclite_objc_autoreleasePoolPopPv
+__ZL19patch_lazy_pointersPK11mach_headerP7patch_tm
+__ZL42__arclite_NSArray_objectAtIndexedSubscriptP7NSArrayP13objc_selectorj
+__ZL53__arclite_NSMutableArray_setObject_atIndexedSubscriptP14NSMutableArrayP13objc_selectorP11objc_objectj
+__ZL46__arclite_NSDictionary_objectForKeyedSubscriptP12NSDictionaryP13objc_selectorP11objc_object
+__ZL47__arclite_NSOrderedSet_objectAtIndexedSubscriptP12NSOrderedSetP13objc_selectorj
+__ZL58__arclite_NSMutableOrderedSet_setObject_atIndexedSubscriptP19NSMutableOrderedSetP13objc_selectorP11objc_objectj
+__ZL58__arclite_NSMutableDictionary__setObject_forKeyedSubscriptP19NSMutableDictionaryP13objc_selectorP11objc_objectS4_
+__ZL18add_image_hook_ARCPK11mach_headerl
+__ZL27__arclite_objc_loadClassrefPP10objc_class
+__ZL36__arclite_object_setInstanceVariableP11objc_objectPKcPv
+__ZL24__arclite_object_setIvarP11objc_objectP9objc_ivarS0_
+__ZL21__arclite_object_copyP11objc_objectm
+__ZL21__arclite_objc_retainP11objc_object
+__ZL26__arclite_objc_retainBlockP11objc_object
+__ZL22__arclite_objc_releaseP11objc_object
+__ZL26__arclite_objc_autoreleaseP11objc_object
+__ZL32__arclite_objc_retainAutoreleaseP11objc_object
+__ZL37__arclite_objc_autoreleaseReturnValueP11objc_object
+__ZL43__arclite_objc_retainAutoreleaseReturnValueP11objc_object
+__ZL44__arclite_objc_retainAutoreleasedReturnValueP11objc_object
+__ZL26__arclite_objc_storeStrongPP11objc_objectS0_
+__ZL22add_image_hook_swiftV1PK11mach_headerl
+__ZL42__arclite_NSUndoManagerProxy_isKindOfClassP11objc_objectP13objc_selectorP10objc_class
+__ZL30__arclite_NSManagedObject_initP11objc_objectP13objc_selector
+__ZL41__arclite_NSManagedObject_allocWithEntityP11objc_objectP13objc_selectorS0_
+__ZL36__arclite_NSManagedObject_allocBatchP11objc_objectP13objc_selectorPS0_S0_j
+__ZL37__arclite_NSKKMS_fastIndexForKnownKeyP11objc_objectP13objc_selectorS0_
+__ZL28__arclite_NSKKMS_indexForKeyP11objc_objectP13objc_selectorS0_
+__ZL29__arclite_NSKKsD_objectForKeyP11objc_objectP13objc_selectorS0_
+__ZL35__arclite_NSKKsD_removeObjectForKeyP11objc_objectP13objc_selectorS0_
+__ZL33__arclite_NSKKsD_setObject_forKeyP11objc_objectP13objc_selectorS0_S0_
+__ZL41__arclite_NSKKsD_addEntriesFromDictionaryP11objc_objectP13objc_selectorP12NSDictionary
+__ZL28__arclite_objc_readClassPairP10objc_classPK15objc_image_info
+__ZL32__arclite_objc_allocateClassPairP10objc_classPKcm
+__ZL32__arclite_object_getIndexedIvarsP11objc_object
+__ZL23__arclite_objc_getClassPKc
+__ZL27__arclite_objc_getMetaClassPKc
+__ZL31__arclite_objc_getRequiredClassPKc
+__ZL26__arclite_objc_lookUpClassPKc
+__ZL26__arclite_objc_getProtocolPKc
+__ZL23__arclite_class_getNameP10objc_class
+__ZL26__arclite_protocol_getNameP8Protocol
+__ZL37__arclite_objc_copyClassNamesForImagePKcPj
+__ZL17transcribeMethodsP10objc_classP15glue_class_ro_t
+__ZL19transcribeProtocolsP10objc_classP15glue_class_ro_t
+__ZL20transcribePropertiesP10objc_classP15glue_class_ro_t
+__ZL14initialize_impP11objc_objectP13objc_selector
+__ZL18allocateMaybeSwiftP18glue_swift_class_tm
+__ZL22copySwiftV1MangledNamePKcb
+__ZL13demangledNamePKcb
+__ZL16scanMangledFieldRPKcS0_S1_Ri
+__ZL30arclite_uninitialized_functionv
+__ZL12cxxConstructP11objc_object
+__ZL20fixStringForCoreDataP11objc_object
+_OBJC_METACLASS_$___ARCLite__
+__ZL24OBJC_CLASS_$___ARCLite__
+__ZL31OBJC_METACLASS_RO_$___ARCLite__
+__non_lazy_classes
+__ZL27OBJC_CLASS_RO_$___ARCLite__
+__ZL11_class_name
+__ZL32OBJC_$_CLASS_METHODS___ARCLite__
+__ZL17_load_method_name
+__ZL17_load_method_type
+__ZL23NSAutoreleasePool_class
+__ZZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__ZGVZL30add_image_hook_autoreleasepoolPK11mach_headerlE7patches
+__OBJC_PROTOCOL_$___ARCLiteIndexedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteIndexedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteIndexedSubscripting__
+__OBJC_PROTOCOL_$___ARCLiteKeyedSubscripting__
+__OBJC_LABEL_PROTOCOL_$___ARCLiteKeyedSubscripting__
+l_OBJC_PROTOCOL_REFERENCE_$___ARCLiteKeyedSubscripting__
+__ZZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZGVZL18add_image_hook_ARCPK11mach_headerlE7patches
+__ZL30NSUndoManagerProxy_targetClass
+__ZL29original_NSManagedObject_init
+__ZL40original_NSManagedObject_allocWithEntity
+__ZL35original_NSManagedObject_allocBatch
+__ZL25NSMutableDictionary_class
+__ZL22NSConstantString_class
+__ZL14NSString_class
+__ZL36original_NSKKMS_fastIndexForKnownKey
+__ZL27original_NSKKMS_indexForKey
+__ZL28original_NSKKsD_objectForKey
+__ZL34original_NSKKsD_removeObjectForKey
+__ZL32original_NSKKsD_setObject_forKey
+__ZL40original_NSKKsD_addEntriesFromDictionary
+__ZZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZGVZL22add_image_hook_swiftV1PK11mach_headerlE7patches
+__ZL31original_objc_allocateClassPair
+__ZL31original_object_getIndexedIvars
+__ZL22original_objc_getClass
+__ZL26original_objc_getMetaClass
+__ZL30original_objc_getRequiredClass
+__ZL25original_objc_lookUpClass
+__ZL25original_objc_getProtocol
+__ZL22original_class_getName
+__ZL25original_protocol_getName
+__ZL36original_objc_copyClassNamesForImage
+__ZL12demangleLock
+__ZL9Demangled
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c++ --target=armv7-apple-ios4.3 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c++11 -Wno-trigraphs -fno-exceptions -fno-rtti -fno-sanitize=vptr -mpascal-strings -Os -Wno-missing-field-initializers -Wmissing-prototypes -Wno-implicit-atomic-properties -Wno-objc-interface-ivars -Wno-arc-repeated-use-of-weak -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wshorten-64-to-32 -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -Wno-c++11-extensions -D NDEBUG=1 -D OBJC_OLD_DISPATCH_PROTOTYPES=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -Winvalid-offsetof -g -fno-threadsafe-statics -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -Wno-semicolon-before-method-body -fembed-bitcode=all -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-generated-files.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-own-target-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-all-target-headers.hmap -iquote /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/arclite_iphoneos-project-headers.hmap -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts/include -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources-normal/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources/armv7 -I /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/DerivedSources -F/Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/Symbols/BuiltProducts -iframework /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk/System/Library/PrivateFrameworks -Wall -Wextra -Wno-gcc-compat -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -Wno-error=incomplete-umbrella -Wno-error=invalid-ios-deployment-target -Wno-error=deprecated-declarations -Wno-error=documentation -MMD -MT dependencies -MF /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.d --serialize-diagnostics /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.dia -c /Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm -o /Library/Caches/com.apple.xbs/Binaries/arclite_iOS/install/TempContent/Objects/arclite.build/arclite_iOS.build/Objects-normal/armv7/arclite.o -Wno-framework-include-private-from-public -Wno-atimport-in-framework-header -Wno-extra-semi-stmt -Wno-quoted-include-in-framework-header -mlinker-version=530 -march=armv7a
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76/source/arclite.mm
+/Library/Caches/com.apple.xbs/Sources/arclite_iOS/arclite-76
+fixStringForCoreData
+source/arclite.mm
+cxxConstruct
+arclite_uninitialized_function
+scanMangledField
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.0.Internal.sdk/usr/include/_ctype.h
+__isctype
+demangledName
+copySwiftV1DemangledName
+copySwiftV1MangledName
+allocateMaybeSwift
+word_align
+isSwift
+initialize_imp
+transcribeProperties
+property_list_nth
+transcribeProtocols
+transcribeMethods
+data
+method_list_nth
+__arclite_objc_copyClassNamesForImage
+__arclite_protocol_getName
+__arclite_class_getName
+__arclite_objc_getProtocol
+__arclite_objc_lookUpClass
+__arclite_objc_getRequiredClass
+__arclite_objc_getMetaClass
+__arclite_objc_getClass
+__arclite_object_getIndexedIvars
+__arclite_objc_allocateClassPair
+metaclass
+__arclite_objc_readClassPair
+transcribeIvars
+ivar_list_nth
+max
+alignment
+ro
+fastFlags
+__arclite_NSKKsD_addEntriesFromDictionary
+__arclite_NSKKsD_setObject_forKey
+__arclite_NSKKsD_removeObjectForKey
+__arclite_NSKKsD_objectForKey
+__arclite_NSKKMS_indexForKey
+__arclite_NSKKMS_fastIndexForKnownKey
+__arclite_NSManagedObject_allocBatch
+__arclite_NSManagedObject_allocWithEntity
+__arclite_NSManagedObject_init
+__arclite_NSUndoManagerProxy_isKindOfClass
+add_image_hook_swiftV1
+patch_t<const char **(const char *, unsigned int *)>
+patch_t<const char *(Protocol *)>
+patch_t<const char *(Class)>
+patch_t<Protocol *(const char *)>
+patch_t<Class (const char *)>
+patch_t<void *(id)>
+patch_t<Class (Class, const char *, unsigned long)>
+patch_t<Class (Class, const objc_image_info *)>
+__arclite_objc_storeStrong
+__arclite_objc_release
+__arclite_objc_retain
+__arclite_objc_retainAutoreleasedReturnValue
+__arclite_objc_retainAutoreleaseReturnValue
+__arclite_objc_autoreleaseReturnValue
+__arclite_objc_retainAutorelease
+__arclite_objc_autorelease
+__arclite_objc_retainBlock
+__arclite_object_copy
+fixupCopiedReferences
+_class_getInstanceStart
+alignedInstanceStart
+__arclite_class_usesAutomaticRetainRelease
+classOrSuperClassesUseARR
+__arclite_object_setIvar
+isScannedOffset
+_ivar_getClass
+__arclite_object_setInstanceVariable
+__arclite_objc_loadClassref
+add_image_hook_ARC
+patch_t<void (id *, id)>
+patch_t<id (id)>
+patch_t<void (id)>
+patch_t<id (id, unsigned long)>
+patch_t<void (id, objc_ivar *, id)>
+patch_t<objc_ivar *(id, const char *, void *)>
+patch_t<Class (Class *)>
+__arclite_NSMutableDictionary__setObject_forKeyedSubscript
+__arclite_NSMutableOrderedSet_setObject_atIndexedSubscript
+__arclite_NSOrderedSet_objectAtIndexedSubscript
+__arclite_NSDictionary_objectForKeyedSubscript
+__arclite_NSMutableArray_setObject_atIndexedSubscript
+__arclite_NSArray_objectAtIndexedSubscript
+patch_lazy_pointers
+__arclite_objc_autoreleasePoolPop
+__arclite_objc_autoreleasePoolPush
+add_image_hook_autoreleasepool
+patch_t<void (void *)>
+patch_t<void *()>
+__ARCLite__load
+install_swiftV1
+replaceMethod
+install_ARC
+install_dict_nil_value
+addOrReplaceMethod
+keyedGetter
+install_subscripting
+addMethod
+indexedGetter
+install_autoreleasepool
